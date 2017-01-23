@@ -1,0 +1,16 @@
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Alpha Health.exe.config
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Alpha Health.exe
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Alpha Health.pdb
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha Health.csprojResolveAssemblyReference.cache
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\MainWindow.g.cs
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\App.g.cs
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha Health_MarkupCompile.cache
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha Health_MarkupCompile.lref
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\MainWindow.baml
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha Health.g.resources
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha_Health.Properties.Resources.resources
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha Health.csproj.GenerateResource.Cache
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha Health.exe
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha Health.pdb
+C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\LogInfoUserControl.g.cs
+C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\LogInfoUserControl.baml

@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="Alpha_Health.LogInfoUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Alpha_Health"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="1800" Background="White"
+             Height="400" Width="820" Margin="0,0,0,10">
+    <Grid>
+        <TextBlock x:Name="title" HorizontalAlignment="Left" Margin="20,17,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0,-0.627" TextDecorations="Underline" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock x:Name="date" HorizontalAlignment="Left" Margin="20,54,0,0" TextWrapping="Wrap" Text="Date:" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBlock x:Name="dateEntry" HorizontalAlignment="Left" Margin="50,54,0,0" TextWrapping="Wrap" Text="TextBlock" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="time" HorizontalAlignment="Left" Margin="152,54,0,0" TextWrapping="Wrap" Text="Time:" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.304,0.373"/>
+        <TextBlock x:Name="timeEntry" HorizontalAlignment="Left" Margin="190,54,0,0" TextWrapping="Wrap" Text="TextBlock" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="exceptions" HorizontalAlignment="Left" Margin="285,54,0,0" TextWrapping="Wrap" Text="# of Exceptions:" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="exceptionEntry" HorizontalAlignment="Left" Margin="382,54,0,0" TextWrapping="Wrap" Text="TextBlock" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="file" HorizontalAlignment="Left" Margin="480,54,0,0" TextWrapping="Wrap" Text="File Location:" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="fileLocation" HorizontalAlignment="Left" Margin="564,54,0,0" TextWrapping="Wrap" Text="TextBlock" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="110" Margin="40,115,0,0" VerticalAlignment="Top" Width="725">
+            <StackPanel>
+                
+            </StackPanel>
+        </ScrollViewer>
+        <TextBox x:Name="exceptionText" HorizontalAlignment="Left" Height="155" Margin="40,230,0,0" TextWrapping="Wrap" Text="Exception" VerticalAlignment="Top" Width="725"/>
+        <Label x:Name="exceptionType" Content="Exception Type" HorizontalAlignment="Left" Margin="50,84,0,0" VerticalAlignment="Top" Width="110" FontWeight="Bold"/>
+        <Label x:Name="exceptionCount" Content="# of Exception" HorizontalAlignment="Center" Margin="369,84,365,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="exceptionShow" Content="Show Exception" HorizontalAlignment="Right" Margin="0,84,87,0" VerticalAlignment="Top" FontWeight="Bold"/>
+    </Grid>
+</UserControl>
