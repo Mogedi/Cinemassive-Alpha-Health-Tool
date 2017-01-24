@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\App.xaml
-21604874370
+373612059
 
-121163562521
+171354850509
 131569487696
-LogInfoUserControl.xaml;MainWindow.xaml;
+ExceptionInfoUserControl.xaml;LogInfoUserControl.xaml;MainWindow.xaml;
 
-True
+False
 

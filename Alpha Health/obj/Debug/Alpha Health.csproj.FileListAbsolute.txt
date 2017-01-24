@@ -14,3 +14,5 @@ c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha H
 c:\users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\Alpha Health.pdb
 C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\LogInfoUserControl.g.cs
 C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\LogInfoUserControl.baml
+C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\ExceptionInfoUserControl.g.cs
+C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\ExceptionInfoUserControl.baml

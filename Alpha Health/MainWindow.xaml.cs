@@ -20,20 +20,26 @@ namespace Alpha_Health
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        CodeRunner codeRunning = new CodeRunner();
+
         public MainWindow()
         {
             InitializeComponent();
-
-            CodeRunner codeRunning = new CodeRunner();
             codeRunning.populateComboBox(comboBox);
-
         }
 
         private void viewButton_Click(object sender, RoutedEventArgs e)
         {
-            LogInfoUserControl item = new LogInfoUserControl();
+            //StackPanel.Children.Clear();
 
-            StackPanel.Children.Add(item);
+            LogInfoUserControl item = new LogInfoUserControl();
+            string selected = comboBox.Text;
+
+            codeRunning.populateWithLogInfo(StackPanel, item);
+            codeRunning.pingAlpha(selected);
+
+            Console.WriteLine(selected);
         }
 
         private void clearButton_Click(object sender, RoutedEventArgs e)

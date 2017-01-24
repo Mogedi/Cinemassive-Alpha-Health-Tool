@@ -18,13 +18,13 @@
         <TextBlock x:Name="file" HorizontalAlignment="Left" Margin="480,54,0,0" TextWrapping="Wrap" Text="File Location:" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock x:Name="fileLocation" HorizontalAlignment="Left" Margin="564,54,0,0" TextWrapping="Wrap" Text="TextBlock" FontFamily="Times New Roman" VerticalAlignment="Top" FontSize="14"/>
         <ScrollViewer HorizontalAlignment="Left" Height="110" Margin="40,115,0,0" VerticalAlignment="Top" Width="725">
-            <StackPanel>
+            <StackPanel x:Name="exceptionStackPanel">
                 
             </StackPanel>
         </ScrollViewer>
         <TextBox x:Name="exceptionText" HorizontalAlignment="Left" Height="155" Margin="40,230,0,0" TextWrapping="Wrap" Text="Exception" VerticalAlignment="Top" Width="725"/>
         <Label x:Name="exceptionType" Content="Exception Type" HorizontalAlignment="Left" Margin="50,84,0,0" VerticalAlignment="Top" Width="110" FontWeight="Bold"/>
-        <Label x:Name="exceptionCount" Content="# of Exception" HorizontalAlignment="Center" Margin="369,84,365,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="exceptionCount" Content="# of Exception" HorizontalAlignment="Center" Margin="-20,84,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label x:Name="exceptionShow" Content="Show Exception" HorizontalAlignment="Right" Margin="0,84,87,0" VerticalAlignment="Top" FontWeight="Bold"/>
     </Grid>
 </UserControl>

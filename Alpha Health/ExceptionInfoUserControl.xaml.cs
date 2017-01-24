@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace Alpha_Health
 {
     /// <summary>
-    /// Interaction logic for LogInfoUserControl1.xaml
+    /// Interaction logic for ExceptionInfoUserControl1.xaml
     /// </summary>
-    public partial class LogInfoUserControl : UserControl
+    public partial class ExceptionInfoUserControl : UserControl
     {
-        public LogInfoUserControl()
+        public ExceptionInfoUserControl()
         {
             InitializeComponent();
-        }
-
-        public void addExceptionInstance()
-        {
-            ExceptionInfoUserControl exceptionInfo = new ExceptionInfoUserControl();
-
-            exceptionStackPanel.Children.Add(exceptionInfo);
         }
     }
 }

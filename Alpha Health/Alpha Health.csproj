@@ -56,6 +56,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ExceptionInfoUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LogInfoUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -69,7 +73,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CodeRunner.cs" />
-    <Compile Include="comboBoxData.cs" />
+    <Compile Include="Model\comboBoxDataClass.cs" />
+    <Compile Include="ExceptionInfoUserControl.xaml.cs">
+      <DependentUpon>ExceptionInfoUserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LogInfoUserControl.xaml.cs">
       <DependentUpon>LogInfoUserControl.xaml</DependentUpon>
     </Compile>
@@ -79,6 +86,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\CreateLocalDirectoryClass.cs" />
+    <Compile Include="Model\doesDirectoryExistClass.cs" />
+    <Compile Include="Model\GetListLogDirectoryPathsClass.cs" />
+    <Compile Include="Model\PingClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
