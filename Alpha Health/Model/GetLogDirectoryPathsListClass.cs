@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Alpha_Health.Model
 {
-    class GetListLogDirectoryPathsClass
+    class GetLogDirectoryPathsListClass
     {
         public static List<string> getListLogDirectoryPaths(string hostname)
         {

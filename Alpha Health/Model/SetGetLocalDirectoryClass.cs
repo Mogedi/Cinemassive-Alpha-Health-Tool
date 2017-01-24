@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Alpha_Health.Model
 {
-    class CreateLocalDirectoryClass
+    class SetGetLocalDirectoryClass
     {
         public static bool createLocalDirectory(string hostname)
         {
@@ -24,6 +24,11 @@ namespace Alpha_Health.Model
             directoryExist = Directory.Exists(path);
 
             return directoryExist;
+        }
+
+        public static string GetLocalDirectoryClass(string hostname)
+        {
+            return "C:\\Users\\" + Environment.UserName + "\\" + Assembly.GetCallingAssembly().GetName().Name + "\\" + hostname + "\\";
         }
     }
 }

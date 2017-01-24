@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Alpha_Health
 {
-    class comboBoxDataClass
+    class ComboBoxDataClass
     {
         private List<string> comboBoxList;
 
-        public comboBoxDataClass()
+        public ComboBoxDataClass()
         {
             comboBoxList = new List<string>(new string[] {"Enterprise", "Galactica", "HeartOfGold", "JupiterII",
                 "LobbyFX", "Normandy", "Nostromo", "Serenity", "Starfury", "Tigersclaw",

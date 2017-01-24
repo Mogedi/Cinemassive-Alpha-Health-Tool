@@ -73,7 +73,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CodeRunner.cs" />
-    <Compile Include="Model\comboBoxDataClass.cs" />
+    <Compile Include="Model\ComboBoxDataClass.cs" />
     <Compile Include="ExceptionInfoUserControl.xaml.cs">
       <DependentUpon>ExceptionInfoUserControl.xaml</DependentUpon>
     </Compile>
@@ -86,10 +86,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\CreateLocalDirectoryClass.cs" />
+    <Compile Include="Model\CopyFileToDestinationClass.cs" />
+    <Compile Include="Model\SetGetLocalDirectoryClass.cs" />
     <Compile Include="Model\doesDirectoryExistClass.cs" />
-    <Compile Include="Model\GetListLogDirectoryPathsClass.cs" />
+    <Compile Include="Model\GetLastestFileInDirectoryClass.cs" />
+    <Compile Include="Model\GetLatestDirectoryClass.cs" />
+    <Compile Include="Model\GetLogDirectoryPathsListClass.cs" />
     <Compile Include="Model\PingClass.cs" />
+    <Compile Include="Model\ReadFileClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
