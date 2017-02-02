@@ -1,0 +1,98 @@
+2017-01-10 14:26:24.716|SystemManager.Library.SystemManagerMonitorManager.BeforeMonitorStart|Starting System Management|3
+2017-01-10 14:26:25.218|CineNet.Features.NonTested.NetworkManagement.InternalServer.Start|Opened Internal Service at http://0.0.0.0:41578/CineNet/SystemManager|3
+2017-01-10 14:26:25.481|CineNet.Features.NetworkManagement.NetworkManagementRegistrationOperation.ConnectToNetworkManager|Going to attempt to connect to Network Manager|4
+2017-01-10 14:26:27.788|SystemManager.Library.SystemManagerMonitorManager.IsLicenseValid|CineMassive LicenseData | {"$id":"1","ChallengeCode":"D0509952F3FB_M80-5C008800029_BFEBFBFF000406F1","IsBravoVideoStreamingEnabled":true,"IsCineNetLiveEnabled":true,"IsEcpEnabled":true,"IsNativeApplicationsEnabled":true,"NumberOfAdminUsers":0,"NumberOfAlphaInputs":99,"NumberOfAlphaOutputs":99,"NumberOfDesktopStreamingAgents":99,"NumberOfNonAdminUsers":0,"Version":2}|3
+2017-01-10 14:26:27.789|SystemManager.Library.SystemManagerMonitorManager.IsLicenseValid|Valid License | {"$id":"1","ChallengeCode":"D0509952F3FB_M80-5C008800029_BFEBFBFF000406F1","IsBravoVideoStreamingEnabled":true,"IsCineNetLiveEnabled":true,"IsEcpEnabled":true,"IsNativeApplicationsEnabled":true,"NumberOfAdminUsers":0,"NumberOfAlphaInputs":99,"NumberOfAlphaOutputs":99,"NumberOfDesktopStreamingAgents":99,"NumberOfNonAdminUsers":0,"Version":2}|3
+2017-01-10 14:26:27.820|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.WriteMessage|Attempting to set service up at: http://0.0.0.0:15457/CineNet/Wall|3
+2017-01-10 14:26:27.841|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.WriteMessage|Listening for traffic at http://0.0.0.0:15457/CineNet/Wall|3
+2017-01-10 14:26:27.845|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.WriteMessage|Attempting to set service up at: http://0.0.0.0:15457/CineNet/Wall/Crestron|3
+2017-01-10 14:26:27.871|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.WriteMessage|Listening for traffic at http://0.0.0.0:15457/CineNet/Wall/Crestron|3
+2017-01-10 14:26:28.148|CineNet.Features.NetworkManagement.NetworkManagementRegistrationOperation.ConnectToNetworkManager|After Connection to Network Manager Response.IsSuccessful = True|4
+2017-01-10 14:26:33.390|CineNet.Mongo.DataStore.Repositories.VideoWallRepository.LoadWall|Loading Video Wall From Storage|3
+2017-01-10 14:26:33.442|CineNet.Mongo.DataStore.Repositories.VideoWallRepository.LoadWall|Done loading Video Wall|3
+2017-01-10 14:26:33.446|CineNet.Features.VideoWall.Interactors.Monitor.SystemManagement.VideoWallConnector.StoreWallResponse|Storing VideoWall with Size of 7680 x 4320|3
+2017-01-10 14:26:33.479|CineNet.Mongo.DataStore.Repositories.VideoWallRepository.LoadWall|Loading Video Wall From Storage|3
+2017-01-10 14:26:33.481|CineNet.Mongo.DataStore.Repositories.VideoWallRepository.LoadWall|Done loading Video Wall|3
+2017-01-10 14:26:33.509|CineNet.Features.VideoWall.Interactors.Monitor.SystemManagement.VideoInputFrameRegistration`1.SendCommandToWall|Sending Registration to SERENITY:12457|17
+2017-01-10 14:27:29.152|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogRequestUrl|Internal Server | RequestUrl ==> http://10.111.11.26:15457/CineNet/Wall/Workspace/00000000-0000-0000-0000-000000000000/Canvas/00000000-0000-0000-0000-000000000000/Window|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|EXCEPTION====================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    EXCEPTION TYPE: System.ArgumentNullException|29
+2017-01-10 14:27:29.180|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    MESSAGE: Value cannot be null.
+Parameter name: input|29
+2017-01-10 14:27:29.184|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    STACKTRACE:    at System.Guid.Parse(String input)
+    |   at CineNet.Features.WebServices.Presenters.CanvasServicePresenter.CreateAssetWindow(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Presenters\CanvasServicePresenter.cs:line 126
+    |   at CineNet.Features.WebServices.Services.CineRestService.<CreateAssetWindow>b__59_0(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Services\CineRestService.cs:line 122
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass13_0.<ProcessNoResponsePostRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass28_0.<RunIfRequestIsValid>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|29
+2017-01-10 14:27:29.185|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|END EXCEPTION================================================================================================================|29
+2017-01-10 14:54:05.658|CineNet.Features.NonTested.Communications.Networking.WCF.CineNetClient.SendClientDisconnected|Client Disconnected SERENITY:12457|22
+2017-01-10 14:54:05.659|CineNet.Features.NonTested.Communications.Networking.WCF.CineNetClient.OnClientClosed|Cine.Features.Communications.Networking.WCF.CineNetClient is CLOSED with EndpointAddress |22
+2017-01-10 14:54:05.660|CineNet.Features.NonTested.Communications.Networking.WCF.CineNetClient.SendClientDisconnected|Client Disconnected SERENITY:12457|22
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|EXCEPTION====================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    EXCEPTION TYPE: System.ArgumentNullException|29
+2017-01-10 14:27:29.180|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    MESSAGE: Value cannot be null.
+Parameter name: input|29
+2017-01-10 14:27:29.184|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    STACKTRACE:    at System.Guid.Parse(String input)
+    |   at CineNet.Features.WebServices.Presenters.CanvasServicePresenter.CreateAssetWindow(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Presenters\CanvasServicePresenter.cs:line 126
+    |   at CineNet.Features.WebServices.Services.CineRestService.<CreateAssetWindow>b__59_0(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Services\CineRestService.cs:line 122
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass13_0.<ProcessNoResponsePostRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass28_0.<RunIfRequestIsValid>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|29
+2017-01-10 14:27:29.185|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|END EXCEPTION================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|EXCEPTION====================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    EXCEPTION TYPE: System.ArgumentNullException|29
+2017-01-10 14:27:29.180|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    MESSAGE: Value cannot be null.
+Parameter name: input|29
+2017-01-10 14:27:29.184|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    STACKTRACE:    at System.Guid.Parse(String input)
+    |   at CineNet.Features.WebServices.Presenters.CanvasServicePresenter.CreateAssetWindow(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Presenters\CanvasServicePresenter.cs:line 126
+    |   at CineNet.Features.WebServices.Services.CineRestService.<CreateAssetWindow>b__59_0(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Services\CineRestService.cs:line 122
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass13_0.<ProcessNoResponsePostRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass28_0.<RunIfRequestIsValid>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|29
+2017-01-10 14:27:29.185|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|END EXCEPTION================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|EXCEPTION====================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    EXCEPTION TYPE: System.ArgumentNullException|29
+2017-01-10 14:27:29.180|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    MESSAGE: Value cannot be null.
+Parameter name: input|29
+2017-01-10 14:27:29.184|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    STACKTRACE:    at System.Guid.Parse(String input)
+    |   at CineNet.Features.WebServices.Presenters.CanvasServicePresenter.CreateAssetWindow(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Presenters\CanvasServicePresenter.cs:line 126
+    |   at CineNet.Features.WebServices.Services.CineRestService.<CreateAssetWindow>b__59_0(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Services\CineRestService.cs:line 122
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass13_0.<ProcessNoResponsePostRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass28_0.<RunIfRequestIsValid>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|29
+2017-01-10 14:27:29.185|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|END EXCEPTION================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|EXCEPTION====================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    EXCEPTION TYPE: ystem.ArgumentNullException|29
+2017-01-10 14:27:29.180|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    MESSAGE: Value cannot be null.
+Parameter name: input|29
+2017-01-10 14:27:29.184|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    STACKTRACE:    at System.Guid.Parse(String input)
+    |   at CineNet.Features.WebServices.Presenters.CanvasServicePresenter.CreateAssetWindow(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Presenters\CanvasServicePresenter.cs:line 126
+    |   at CineNet.Features.WebServices.Services.CineRestService.<CreateAssetWindow>b__59_0(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Services\CineRestService.cs:line 122
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass13_0.<ProcessNoResponsePostRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass28_0.<RunIfRequestIsValid>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|29
+2017-01-10 14:27:29.185|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|END EXCEPTION================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|EXCEPTION====================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    EXCEPTION TYPE: stem.ArgumentNullException|29
+2017-01-10 14:27:29.180|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    MESSAGE: Value cannot be null.
+Parameter name: input|29
+2017-01-10 14:27:29.184|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    STACKTRACE:    at System.Guid.Parse(String input)
+    |   at CineNet.Features.WebServices.Presenters.CanvasServicePresenter.CreateAssetWindow(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Presenters\CanvasServicePresenter.cs:line 126
+    |   at CineNet.Features.WebServices.Services.CineRestService.<CreateAssetWindow>b__59_0(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Services\CineRestService.cs:line 122
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass13_0.<ProcessNoResponsePostRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass28_0.<RunIfRequestIsValid>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|29
+2017-01-10 14:27:29.185|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|END EXCEPTION================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|EXCEPTION====================================================================================================================|29
+2017-01-10 14:27:29.179|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    EXCEPTION TYPE: stem.ArgumentNullException|29
+2017-01-10 14:27:29.180|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    MESSAGE: Value cannot be null.
+Parameter name: input|29
+2017-01-10 14:27:29.184|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|    STACKTRACE:    at System.Guid.Parse(String input)
+    |   at CineNet.Features.WebServices.Presenters.CanvasServicePresenter.CreateAssetWindow(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Presenters\CanvasServicePresenter.cs:line 126
+    |   at CineNet.Features.WebServices.Services.CineRestService.<CreateAssetWindow>b__59_0(String postData) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Features\WebServices\Services\CineRestService.cs:line 122
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass13_0.<ProcessNoResponsePostRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass28_0.<RunIfRequestIsValid>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|29
+2017-01-10 14:27:29.185|CineNet.Features.NonTested.NetworkManagement.InternalServerLogging.LogException|END EXCEPTION================================================================================================================|29
+

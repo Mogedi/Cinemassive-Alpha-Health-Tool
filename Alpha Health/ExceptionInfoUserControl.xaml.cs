@@ -15,14 +15,30 @@ using System.Windows.Shapes;
 
 namespace Alpha_Health
 {
-    /// <summary>
-    /// Interaction logic for ExceptionInfoUserControl1.xaml
-    /// </summary>
     public partial class ExceptionInfoUserControl : UserControl
     {
+        List<string> uniqueSegmentsInstance;
+        TextBox exceptionTextInstance;
+
         public ExceptionInfoUserControl()
         {
             InitializeComponent();
+        }
+
+        public void populateExceptionInstances(string exception, int frequency, TextBox exceptionText, List<string> uniqueSegments)
+        {
+            exceptionTextInstance = exceptionText;
+            uniqueSegmentsInstance = uniqueSegments;
+            textBlock.Text = exception;
+            textBlock2.Text = "" + frequency + "";
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            exceptionTextInstance.Clear();
+            foreach(string line in uniqueSegmentsInstance) {
+                exceptionTextInstance.AppendText(line + "\n");
+            }
         }
     }
 }

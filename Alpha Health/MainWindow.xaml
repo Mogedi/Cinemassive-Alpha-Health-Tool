@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Alpha_Health"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1180" Width="900" Background="#FF35458D">
+        Title="MainWindow" Height="1200" Width="1150" Background="#FF35458D"
+        ResizeMode="NoResize">
     <Grid>
         <ComboBox x:Name="comboBox" IsEditable="True" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="150,20,150,280" VerticalAlignment="Top" Width="250" Height="Auto"/>
         <ScrollViewer x:Name="ScrollViewer" HorizontalAlignment="Stretch" Height="Auto" Margin="20,180,20,100" VerticalAlignment="Stretch" Width="Auto">
@@ -13,9 +14,9 @@
 
             </StackPanel>
         </ScrollViewer>
-        <Button x:Name="viewButton" Content="View" HorizontalAlignment="Left" Margin="276,75,0,0" VerticalAlignment="Top" Width="150" Height="50" Click="viewButton_Click"/>
-        <Button x:Name="trackButton" Content="Track" HorizontalAlignment="Right" Margin="0,75,274,0" VerticalAlignment="Top" Width="150" Height="50"/>
-        <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Stretch" Margin="722,1075,20,25" VerticalAlignment="Stretch" Width="150" Height="50" Click="clearButton_Click"/>
+        <Button x:Name="viewButton" Content="View" HorizontalAlignment="Left" Margin="400,75,0,0" VerticalAlignment="Top" Width="150" Height="50" Click="viewButton_Click"/>
+        <Button x:Name="trackButton" Content="Track" HorizontalAlignment="Right" Margin="0,75,219,0" VerticalAlignment="Top" Width="150" Height="50" Click="trackButton_Click" Visibility="Hidden"/>
+        <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Right" Margin="0,75,409,0" VerticalAlignment="Top" Width="150" Height="50" Click="clearButton_Click"/>
 
     </Grid>
 </Window>

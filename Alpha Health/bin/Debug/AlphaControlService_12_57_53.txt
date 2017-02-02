@@ -1,0 +1,19 @@
+2017-01-27 12:57:53.943|CineNet.WallControl.Library.AlphaControlServiceMonitorManager.BeforeMonitorStart|Starting Alpha Control Service|3
+2017-01-27 12:57:55.882|EXCEPTION====================================================================================================================|3
+2017-01-27 12:57:55.883|    EXCEPTION TYPE: System.DllNotFoundException|3
+2017-01-27 12:57:55.883|    MESSAGE: Unable to load DLL 'rgbeasy.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)|3
+2017-01-27 12:57:55.894|    STACKTRACE:    at CineNet.Graphics.CaptureManager.Datapath.RGBEasy.NativeMethods.RGBLoad(IntPtr& hRGBDLL)
+    |   at CineNet.Graphics.CaptureManager.Datapath.RGBEasy.RGB.Load(IntPtr& hRGBDLL) in F:\Code\CineNet.Graphics.Canvas\CineNet.Graphics.CaptureManager\CineNet.Graphics.CaptureManager.Datapath.RGBEasy\RGB.cs:line 856
+    |   at CineNet.Graphics.DataPathInterop.DataPathInterOperations.<Load>b__67_0() in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Graphics.DataPathInterop\DataPathInterOperations.cs:line 695
+    |   at CineNet.Graphics.DataPathInterop.DataPathInterOperations.TryAndExecute(Action actionToAttempt) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Graphics.DataPathInterop\DataPathInterOperations.cs:line 919|3
+2017-01-27 12:57:55.895|END EXCEPTION================================================================================================================|3
+2017-01-27 12:57:55.897|EXCEPTION====================================================================================================================|3
+2017-01-27 12:57:55.898|    EXCEPTION TYPE: System.DllNotFoundException|3
+2017-01-27 12:57:55.898|    MESSAGE: Unable to load DLL 'rgbeasy.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)|3
+2017-01-27 12:57:55.899|    STACKTRACE:    at CineNet.Graphics.CaptureManager.Datapath.RGBEasy.NativeMethods.RGBGetNumberOfInputs(UInt32& NumberOfInputs)
+    |   at CineNet.Graphics.CaptureManager.Datapath.RGBEasy.RGB.GetNumberOfInputs(UInt32& numberOfInputs) in F:\Code\CineNet.Graphics.Canvas\CineNet.Graphics.CaptureManager\CineNet.Graphics.CaptureManager.Datapath.RGBEasy\RGB.cs:line 576
+    |   at CineNet.Graphics.DataPathInterop.DataPathInterOperations.<>c.<GetNumberOfInputs>b__47_0() in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Graphics.DataPathInterop\DataPathInterOperations.cs:line 459
+    |   at CineNet.Graphics.DataPathInterop.DataPathInterOperations.TryAndExecute[T](Func`1 functionToAttempt) in C:\Testing\Builds\Build_3_0_163\CineNetMain\CineNet\CineNet.Graphics.DataPathInterop\DataPathInterOperations.cs:line 931|3
+2017-01-27 12:57:55.900|END EXCEPTION================================================================================================================|3
+2017-01-27 12:57:55.923|CineNet.Features.VideoWallDrivers.VideoWallController.GetVideoWallPanels|Starting Video Wall of Size 7680 x 4320|3
+2017-01-27 12:57:55.926|CineNet.Features.VideoWallDrivers.VideoWallController.GetVideoWallPanels|Starting Video Wall of Size 7680 x 4320|3

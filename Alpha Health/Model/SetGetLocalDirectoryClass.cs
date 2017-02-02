@@ -13,20 +13,16 @@ namespace Alpha_Health.Model
         public static bool createLocalDirectory(string hostname)
         {
             string path = "C:\\Users\\" + Environment.UserName + "\\" + Assembly.GetCallingAssembly().GetName().Name + "\\" + hostname + "\\";
-
             bool directoryExist = Directory.Exists(path);
-
             if (!directoryExist)
             {
                 Directory.CreateDirectory(path);
             }
-
             directoryExist = Directory.Exists(path);
-
             return directoryExist;
         }
 
-        public static string GetLocalDirectoryClass(string hostname)
+        public static string getLocalDirectoryClass(string hostname)
         {
             return "C:\\Users\\" + Environment.UserName + "\\" + Assembly.GetCallingAssembly().GetName().Name + "\\" + hostname + "\\";
         }

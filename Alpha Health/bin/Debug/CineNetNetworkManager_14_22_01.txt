@@ -1,0 +1,93 @@
+2017-01-10 14:22:01.522|Starting CineNet Network Manager|5
+2017-01-10 14:22:01.531|Attempting to set service up at: http://0.0.0.0:25001/CineNet/NetworkManager|5
+2017-01-10 14:22:01.561|Listening for traffic at http://0.0.0.0:25001/CineNet/NetworkManager|5
+2017-01-10 14:22:01.568|Attempting to set service up at: http://0.0.0.0:25002/CineNet/NetworkManager|5
+2017-01-10 14:22:01.581|Listening for traffic at http://0.0.0.0:25002/CineNet/NetworkManager|5
+2017-01-10 16:40:26.235|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|EXCEPTION====================================================================================================================|67
+2017-01-10 16:40:26.235|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|    EXCEPTION TYPE: System.AggregateException|67
+2017-01-10 16:40:26.236|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|    MESSAGE: One or more errors occurred.|67
+2017-01-10 16:40:26.238|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|    STACKTRACE:    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+    |   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+    |   at System.Threading.Tasks.Task.Wait()
+    |   at CineNet.Communication.Web.Client.WebCaller`1.GetFromUrlSync(String url)
+    |   at CineNet.NetworkManager.Instances.Instance.GetFromExternalUrl(String url) in C:\Testing\Builds\Build_3_0_163\CineNetNetWorkManager\CineNet.NetworkManager\Instances\Instance.cs:line 46
+    |   at CineNet.NetworkManager.Instances.InstancePresenter.GetFromInstance(Guid instanceId, String urlToCall) in C:\Testing\Builds\Build_3_0_163\CineNetNetWorkManager\CineNet.NetworkManager\Instances\InstancePresenter.cs:line 43
+    |   at CineNet.NetworkManager.Services.ExternalService.<>c__DisplayClass58_0.<GetFromInstance>b__0() in C:\Testing\Builds\Build_3_0_163\CineNetNetWorkManager\CineNet.NetworkManager\Services\ExternalService.cs:line 112
+    |   at CineNet.Communication.Web.Servers.ExternalServerActions.GetResponseString(Func`1 requestProcess)
+    |   at CineNet.Communication.Web.Servers.ServerActions.ProcessResponse(Func`1 requestProcess)
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass11_0.<ProcessJsonReturnRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|67
+2017-01-10 16:40:26.239|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|        -----------------INNER EXCEPTION------------|67
+2017-01-10 16:40:26.240|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|        MESSAGE: 
+*********************************************************************************************************************************************
+If this error talks about transports and forcibly closing connections, it could be be because you don't have a cert attached to port: 15457
+Use the Cinemassive Cmdlets to add a Cert and attach it to the Port.
+Currently: $cert = Install-CmSelfSignedCertificateForWcfService;%{ Add-CmCertToPort -CertThumbprint $_.Thumbprint -Port {Port} }
+If you already have a CinemassiveApiCert installed on your machine, you can just use the second half of that statement with the
+already installed cert's Thumbprint.
+*********************************************************************************************************************************************
+If it talks about no connection could be made because the target machine actively refused it, you either need to:
+A) Run as Administrator
+B) Run this at the command line:
+  netsh http add delete url=https://+:15457
+  netsh http add urlacl url=https://+:15457/ user=Everyone
+
+Even if that first line gives an error, it's ok, as long as the add works
+*********************************************************************************************************************************************
+|67
+2017-01-10 16:40:26.241|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|        STACKTRACE:    at CineNet.Communication.Web.Client.WebCaller`1.<GetFromUrl>d__21.MoveNext()|67
+2017-01-10 16:40:26.241|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|            -----------------INNER EXCEPTION------------|67
+2017-01-10 16:40:26.243|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|            MESSAGE: An error occurred while sending the request.|67
+2017-01-10 16:40:26.243|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|            STACKTRACE:    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+            |   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+            |   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+            |   at CineNet.Communication.Web.Client.WebCaller`1.<GetFromUrl>d__21.MoveNext()|67
+2017-01-10 16:40:26.244|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|                -----------------INNER EXCEPTION------------|67
+2017-01-10 16:40:26.244|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|                MESSAGE: Unable to connect to the remote server|67
+2017-01-10 16:40:26.245|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|                STACKTRACE:    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+                |   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)|67
+2017-01-10 16:40:26.245|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|END EXCEPTION================================================================================================================|67
+2017-01-10 16:40:28.252|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|EXCEPTION====================================================================================================================|66
+2017-01-10 16:40:28.252|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|    EXCEPTION TYPE: System.AggregateException|66
+2017-01-10 16:40:28.252|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|    MESSAGE: One or more errors occurred.|66
+2017-01-10 16:40:28.253|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|    STACKTRACE:    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+    |   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+    |   at System.Threading.Tasks.Task.Wait()
+    |   at CineNet.Communication.Web.Client.WebCaller`1.GetFromUrlSync(String url)
+    |   at CineNet.NetworkManager.Instances.Instance.GetFromExternalUrl(String url) in C:\Testing\Builds\Build_3_0_163\CineNetNetWorkManager\CineNet.NetworkManager\Instances\Instance.cs:line 46
+    |   at CineNet.NetworkManager.Instances.InstancePresenter.GetFromInstance(Guid instanceId, String urlToCall) in C:\Testing\Builds\Build_3_0_163\CineNetNetWorkManager\CineNet.NetworkManager\Instances\InstancePresenter.cs:line 43
+    |   at CineNet.NetworkManager.Services.ExternalService.<>c__DisplayClass58_0.<GetFromInstance>b__0() in C:\Testing\Builds\Build_3_0_163\CineNetNetWorkManager\CineNet.NetworkManager\Services\ExternalService.cs:line 112
+    |   at CineNet.Communication.Web.Servers.ExternalServerActions.GetResponseString(Func`1 requestProcess)
+    |   at CineNet.Communication.Web.Servers.ServerActions.ProcessResponse(Func`1 requestProcess)
+    |   at CineNet.Communication.Web.Servers.ServerActions.<>c__DisplayClass11_0.<ProcessJsonReturnRequest>b__0()
+    |   at CineNet.Communication.Web.Servers.ServerActions.RunIfRequestIsValid(ServerActionOptions options, Func`1 stuffToDoIfValid, String contentType)|66
+2017-01-10 16:40:28.253|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|        -----------------INNER EXCEPTION------------|66
+2017-01-10 16:40:28.253|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|        MESSAGE: 
+*********************************************************************************************************************************************
+If this error talks about transports and forcibly closing connections, it could be be because you don't have a cert attached to port: 15457
+Use the Cinemassive Cmdlets to add a Cert and attach it to the Port.
+Currently: $cert = Install-CmSelfSignedCertificateForWcfService;%{ Add-CmCertToPort -CertThumbprint $_.Thumbprint -Port {Port} }
+If you already have a CinemassiveApiCert installed on your machine, you can just use the second half of that statement with the
+already installed cert's Thumbprint.
+*********************************************************************************************************************************************
+If it talks about no connection could be made because the target machine actively refused it, you either need to:
+A) Run as Administrator
+B) Run this at the command line:
+  netsh http add delete url=https://+:15457
+  netsh http add urlacl url=https://+:15457/ user=Everyone
+
+Even if that first line gives an error, it's ok, as long as the add works
+*********************************************************************************************************************************************
+|66
+2017-01-10 16:40:28.254|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|        STACKTRACE:    at CineNet.Communication.Web.Client.WebCaller`1.<GetFromUrl>d__21.MoveNext()|66
+2017-01-10 16:40:28.254|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|            -----------------INNER EXCEPTION------------|66
+2017-01-10 16:40:28.254|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|            MESSAGE: An error occurred while sending the request.|66
+2017-01-10 16:40:28.254|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|            STACKTRACE:    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+            |   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+            |   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+            |   at CineNet.Communication.Web.Client.WebCaller`1.<GetFromUrl>d__21.MoveNext()|66
+2017-01-10 16:40:28.255|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|                -----------------INNER EXCEPTION------------|66
+2017-01-10 16:40:28.255|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|                MESSAGE: Unable to connect to the remote server|66
+2017-01-10 16:40:28.255|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|                STACKTRACE:    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+                |   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)|66
+2017-01-10 16:40:28.256|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|END EXCEPTION================================================================================================================|66

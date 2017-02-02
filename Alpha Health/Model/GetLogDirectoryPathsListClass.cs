@@ -11,14 +11,14 @@ namespace Alpha_Health.Model
         public static List<string> getListLogDirectoryPaths(string hostname)
         {
             List<string> alphaDirectory = new List<string>();
-            string[] paths = { "\\Cinemassive\\SystemManager\\Logs\\CineNetSystemManagement\\",
-                "\\Cinemassive\\AlphaControlService\\Logs\\AlphaControlService\\",
-                "\\Cinemassive\\AuthenticationService\\Logs\\CineNetAuthenticationService",
-                "\\Cinemassive\\CineNetBootStrapper\\Logs\\CineNetBootstrapper",
-                "\\Cinemassive\\CineNetUI\\Logs\\CineNet",
-                "\\Cinemassive\\DeviceControl\\Logs\\CineNetDeviceControlService",
-                "\\Cinemassive\\NetworkManager\\Logs\\CineNetNetworkManager",
-                "\\Cinemassive\\RoomService\\Logs\\CineNetRoomService"};
+            string[] paths = { "\\C\\Cinemassive\\SystemManager\\Logs\\CineNetSystemManagement\\",
+                "\\C\\Cinemassive\\AlphaControlService\\Logs\\AlphaControlService\\",
+                "\\C\\Cinemassive\\AuthenticationService\\Logs\\CineNetAuthenticationService\\",
+                "\\C\\Cinemassive\\CineNetBootStrapper\\Logs\\CineNetBootstrapper\\",
+                "\\C\\Cinemassive\\CineNetUI\\Logs\\CineNet\\",
+                "\\C\\Cinemassive\\DeviceControl\\Logs\\CineNetDeviceControlService\\",
+                "\\C\\Cinemassive\\NetworkManager\\Logs\\CineNetNetworkManager\\",
+                "\\C\\Cinemassive\\RoomService\\Logs\\CineNetRoomService\\"};
 
             foreach (string item in paths)
             {

@@ -1,0 +1,595 @@
+2017-01-09 17:16:39.797|Starting Bootstrap Service|4
+2017-01-09 17:16:39.828|Attempting to set service up at: http://0.0.0.0:41597/CineNet/Bootstrapper|5
+2017-01-09 17:16:39.859|Listening for traffic at http://0.0.0.0:41597/CineNet/Bootstrapper|5
+2017-01-10 14:21:12.013|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Stopping process 'C:\Cinemassive\SystemManager\CineNetSystemManagement.exe'|10
+2017-01-10 14:21:25.353|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|10
+2017-01-10 14:21:30.631|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|10
+2017-01-10 14:21:31.164|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Running Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' with arguments | -n CineNetSystemManager -i C:\Cinemassive\SystemManager\CineNetSystemManagement.exe -z C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetSystemManager.cm -v 3.0.163|10
+2017-01-10 14:21:32.131|Running Update with options of: UpdateOptions | ItemToUpdate = C:\Cinemassive\SystemManager\CineNetSystemManagement.exe | LocationOfUpdateZip = C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetSystemManager.cm | Version = 3.0.163 | ItemName = CineNetSystemManager | DataZip = |8
+2017-01-10 14:21:32.131|Starting Update to 3.0.163|8
+2017-01-10 14:21:32.131|UpdateItem | Name: CineNetSystemManager | FullLocation: C:\Cinemassive\SystemManager\CineNetSystemManagement.exe | IsFolder: False|8
+2017-01-10 14:21:32.132|Going to update System Manager|8
+2017-01-10 14:21:32.132|Going to Set Up Mongo%%%%%%%%%|8
+2017-01-10 14:21:32.133|============================================================================================================================================|8
+2017-01-10 14:21:32.136|MongoDB is already installed skipping install of MongoDB|8
+2017-01-10 14:21:32.136|Going to Set Up Mongo%%%%%%%%%|8
+2017-01-10 14:21:32.136|Configuration Located at C:\Cinemassive\SystemManager\CineNetSystemManagement.exe.config|8
+2017-01-10 14:21:32.136|Found configuration, backing up|8
+2017-01-10 14:21:32.136|Done backing up configuration|8
+2017-01-10 14:21:32.137|Deleting directory: 'C:\Cinemassive\SystemManager'|8
+2017-01-10 14:21:32.138|Checking for Directory Images|8
+2017-01-10 14:21:32.138|Deleting Directory Images|8
+2017-01-10 14:21:32.138|Checking for Directory Logs|8
+2017-01-10 14:21:32.139|Deleting File AssimpNet.dll|8
+2017-01-10 14:21:32.139|Deleting File AssimpNet.pdb|8
+2017-01-10 14:21:32.141|Deleting File AutoMapper.dll|8
+2017-01-10 14:21:32.141|Deleting File AutoMapper.xml|8
+2017-01-10 14:21:32.141|Deleting File Castle.Core.dll|8
+2017-01-10 14:21:32.141|Deleting File Castle.Core.xml|8
+2017-01-10 14:21:32.141|Deleting File CineNet.Binding.dll|8
+2017-01-10 14:21:32.141|Deleting File CineNet.Binding.pdb|8
+2017-01-10 14:21:32.142|Deleting File CineNet.Client.Common.dll|8
+2017-01-10 14:21:32.142|Deleting File CineNet.Client.Common.dll.config|8
+2017-01-10 14:21:32.142|Deleting File CineNet.Client.Common.pdb|8
+2017-01-10 14:21:32.142|Deleting File CineNet.Common.dll|8
+2017-01-10 14:21:32.142|Deleting File CineNet.Communication.Web.dll|8
+2017-01-10 14:21:32.142|Deleting File CineNet.Enumerations.dll|8
+2017-01-10 14:21:32.143|Deleting File CineNet.Enumerations.pdb|8
+2017-01-10 14:21:32.143|Deleting File CineNet.Features.DesktopStreaming.VNC.dll|8
+2017-01-10 14:21:32.143|Deleting File CineNet.Features.DesktopStreaming.VNC.pdb|8
+2017-01-10 14:21:32.143|Deleting File CineNet.Features.dll|8
+2017-01-10 14:21:32.143|Deleting File CineNet.Features.NonTested.dll|8
+2017-01-10 14:21:32.143|Deleting File CineNet.Features.NonTested.dll.config|8
+2017-01-10 14:21:32.144|Deleting File CineNet.Features.NonTested.pdb|8
+2017-01-10 14:21:32.144|Deleting File CineNet.Features.pdb|8
+2017-01-10 14:21:32.144|Deleting File CineNet.Graphics.Canvas.dll|8
+2017-01-10 14:21:32.144|Deleting File CineNet.Graphics.Canvas.Interoperations.dll|8
+2017-01-10 14:21:32.144|Deleting File CineNet.Graphics.Canvas.Interoperations.pdb|8
+2017-01-10 14:21:32.144|Deleting File CineNet.Graphics.Canvas.pdb|8
+2017-01-10 14:21:32.145|Deleting File CineNet.Graphics.CaptureManager.Datapath.RGBEasy.dll|8
+2017-01-10 14:21:32.145|Deleting File CineNet.Graphics.CaptureManager.Datapath.RGBEasy.pdb|8
+2017-01-10 14:21:32.145|Deleting File CineNet.Graphics.CaptureManager.dll|8
+2017-01-10 14:21:32.145|Deleting File CineNet.Graphics.CaptureManager.pdb|8
+2017-01-10 14:21:32.145|Deleting File CineNet.Graphics.DataPathInterop.dll|8
+2017-01-10 14:21:32.145|Deleting File CineNet.Graphics.DataPathInterop.pdb|8
+2017-01-10 14:21:32.145|Deleting File CineNet.Graphics.Illustrate.dll|8
+2017-01-10 14:21:32.146|Deleting File CineNet.Graphics.Illustrate.pdb|8
+2017-01-10 14:21:32.146|Deleting File CineNet.Graphics.SceneGraph.Animation.dll|8
+2017-01-10 14:21:32.146|Deleting File CineNet.Graphics.SceneGraph.Animation.pdb|8
+2017-01-10 14:21:32.146|Deleting File CineNet.Infrastructure.dll|8
+2017-01-10 14:21:32.146|Deleting File CineNet.Infrastructure.dll.config|8
+2017-01-10 14:21:32.146|Deleting File CineNet.Infrastructure.pdb|8
+2017-01-10 14:21:32.147|Deleting File CineNet.Models.dll|8
+2017-01-10 14:21:32.147|Deleting File CineNet.Models.pdb|8
+2017-01-10 14:21:32.147|Deleting File CineNet.Modules.CinerFace.dll|8
+2017-01-10 14:21:32.147|Deleting File CineNet.Modules.CinerFace.pdb|8
+2017-01-10 14:21:32.147|Deleting File CineNet.Modules.SystemManager.dll|8
+2017-01-10 14:21:32.147|Deleting File CineNet.Modules.SystemManager.pdb|8
+2017-01-10 14:21:32.148|Deleting File CineNet.Mongo.DataStore.dll|8
+2017-01-10 14:21:32.148|Deleting File CineNet.Mongo.DataStore.pdb|8
+2017-01-10 14:21:32.148|Deleting File CineNetSystemManagement.exe|8
+2017-01-10 14:21:32.148|Deleting File CineNetSystemManagement.exe.config|8
+2017-01-10 14:21:32.148|Deleting File CineNetSystemManagement.pdb|8
+2017-01-10 14:21:32.148|Deleting File CineRestore.bat|8
+2017-01-10 14:21:32.148|Deleting File Emgu.CV.dll|8
+2017-01-10 14:21:32.149|Deleting File Emgu.Util.dll|8
+2017-01-10 14:21:32.149|Deleting File FakeO.dll|8
+2017-01-10 14:21:32.149|Deleting File GlavSoft.RemoteCoreSDK.Common.dll|8
+2017-01-10 14:21:32.149|Deleting File GlavSoft.Viewer.Common.dll|8
+2017-01-10 14:21:32.149|Deleting File GlavSoft.Viewer.Core.dll|8
+2017-01-10 14:21:32.149|Deleting File GlavSoft.Viewer.NativeCoreWrapper.x64.dll|8
+2017-01-10 14:21:32.150|Deleting File GlavSoft.Viewer.NativeCoreWrapper.x86.dll|8
+2017-01-10 14:21:32.150|Deleting File guard_claws.dll|8
+2017-01-10 14:21:32.150|Deleting File guard_claws.xml|8
+2017-01-10 14:21:32.150|Deleting File Humanizer.dll|8
+2017-01-10 14:21:32.150|Deleting File Humanizer.pdb|8
+2017-01-10 14:21:32.150|Deleting File Humanizer.xml|8
+2017-01-10 14:21:32.151|Deleting File ImageIdentification.dll|8
+2017-01-10 14:21:32.151|Deleting File ImageIdentification.pdb|8
+2017-01-10 14:21:32.151|Deleting File ImageIdentification.xml|8
+2017-01-10 14:21:32.151|Deleting File JetBrains.Annotations.dll|8
+2017-01-10 14:21:32.151|Deleting File JetBrains.Annotations.xml|8
+2017-01-10 14:21:32.151|Deleting File license|8
+2017-01-10 14:21:32.152|Deleting File Microsoft.AspNet.SignalR.Core.dll|8
+2017-01-10 14:21:32.152|Deleting File Microsoft.AspNet.SignalR.Core.xml|8
+2017-01-10 14:21:32.152|Deleting File Microsoft.Owin.dll|8
+2017-01-10 14:21:32.152|Deleting File Microsoft.Owin.Security.dll|8
+2017-01-10 14:21:32.152|Deleting File Microsoft.Owin.Security.xml|8
+2017-01-10 14:21:32.152|Deleting File Microsoft.Owin.xml|8
+2017-01-10 14:21:32.152|Deleting File Microsoft.Practices.ServiceLocation.dll|8
+2017-01-10 14:21:32.153|Deleting File Microsoft.Practices.ServiceLocation.pdb|8
+2017-01-10 14:21:32.153|Deleting File Microsoft.Practices.ServiceLocation.xml|8
+2017-01-10 14:21:32.153|Deleting File Microsoft.Practices.Unity.Configuration.dll|8
+2017-01-10 14:21:32.153|Deleting File Microsoft.Practices.Unity.Configuration.xml|8
+2017-01-10 14:21:32.153|Deleting File Microsoft.Practices.Unity.dll|8
+2017-01-10 14:21:32.153|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.dll|8
+2017-01-10 14:21:32.154|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.xml|8
+2017-01-10 14:21:32.154|Deleting File Microsoft.Practices.Unity.xml|8
+2017-01-10 14:21:32.154|Deleting File MongoDB.Bson.dll|8
+2017-01-10 14:21:32.154|Deleting File MongoDB.Bson.xml|8
+2017-01-10 14:21:32.154|Deleting File MongoDB.Driver.Core.dll|8
+2017-01-10 14:21:32.154|Deleting File MongoDB.Driver.Core.xml|8
+2017-01-10 14:21:32.155|Deleting File MongoDB.Driver.dll|8
+2017-01-10 14:21:32.155|Deleting File MongoDB.Driver.xml|8
+2017-01-10 14:21:32.155|Deleting File Newtonsoft.Json.dll|8
+2017-01-10 14:21:32.155|Deleting File Newtonsoft.Json.xml|8
+2017-01-10 14:21:32.155|Deleting File OpenTK.dll|8
+2017-01-10 14:21:32.155|Deleting File OpenTK.xml|8
+2017-01-10 14:21:32.156|Deleting File Owin.dll|8
+2017-01-10 14:21:32.156|Deleting File Priority Queue.dll|8
+2017-01-10 14:21:32.156|Deleting File Priority Queue.pdb|8
+2017-01-10 14:21:32.156|Deleting File Priority Queue.xml|8
+2017-01-10 14:21:32.156|Deleting File Renci.SshNet.dll|8
+2017-01-10 14:21:32.156|Deleting File Renci.SshNet.xml|8
+2017-01-10 14:21:32.157|Deleting File SharpGL.dll|8
+2017-01-10 14:21:32.157|Deleting File SharpGL.pdb|8
+2017-01-10 14:21:32.157|Deleting File SharpGL.SceneGraph.dll|8
+2017-01-10 14:21:32.157|Deleting File SharpGL.SceneGraph.pdb|8
+2017-01-10 14:21:32.157|Deleting File SharpGL.SceneGraph.xml|8
+2017-01-10 14:21:32.157|Deleting File SharpGL.WPF.dll|8
+2017-01-10 14:21:32.157|Deleting File SharpGL.WPF.pdb|8
+2017-01-10 14:21:32.158|Deleting File SharpGL.WPF.xml|8
+2017-01-10 14:21:32.158|Deleting File SharpGL.xml|8
+2017-01-10 14:21:32.158|Deleting File System.Runtime.InteropServices.RuntimeInformation.dll|8
+2017-01-10 14:21:32.158|Deleting File SystemManager.Library.dll|8
+2017-01-10 14:21:32.158|Deleting File SystemManager.Library.dll.config|8
+2017-01-10 14:21:32.158|Deleting File SystemManager.Library.pdb|8
+2017-01-10 14:21:32.159|Deleting File version.cm|8
+2017-01-10 14:21:32.159|Deleting File VncSharp.dll|8
+2017-01-10 14:21:32.159|Deleting File VncSharp.pdb|8
+2017-01-10 14:21:32.159|Deleting File zxing.dll|8
+2017-01-10 14:21:32.159|Deleting File zxing.pdb|8
+2017-01-10 14:21:32.159|Deleting File zxing.xml|8
+2017-01-10 14:21:32.160|Done deleting directory: 'C:\Cinemassive\SystemManager'|8
+2017-01-10 14:21:32.160|Creating directory at 'C:\Cinemassive\SystemManager'|8
+2017-01-10 14:21:32.160|Extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetSystemManager.cm to C:\Cinemassive\SystemManager|8
+2017-01-10 14:21:32.514|Completed extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetSystemManager.cm to C:\Cinemassive\SystemManager|8
+2017-01-10 14:21:32.514|Saving configuration to C:\Cinemassive\SystemManager\CineNetSystemManagement.exe.config|8
+2017-01-10 14:21:32.514|Done saving configuration to C:\Cinemassive\SystemManager\CineNetSystemManagement.exe.config|8
+2017-01-10 14:21:32.515|Saving v3.0.163 to 'C:\Cinemassive\SystemManager\version.cm'|8
+2017-01-10 14:21:32.515|Done saving v3.0.163 to 'C:\Cinemassive\SystemManager\version.cm'|8
+2017-01-10 14:21:32.518|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' complete.  Exit Code: 0|10
+2017-01-10 14:21:32.616|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Stopping process 'C:\Cinemassive\AlphaControlService\AlphaControlService.exe'|4
+2017-01-10 14:21:41.935|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|4
+2017-01-10 14:21:45.135|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|4
+2017-01-10 14:21:45.645|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Running Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' with arguments | -n AlphaControlService -i C:\Cinemassive\AlphaControlService\AlphaControlService.exe -z C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetAlphaControlService.cm -v 3.0.163|4
+2017-01-10 14:21:46.320|Running Update with options of: UpdateOptions | ItemToUpdate = C:\Cinemassive\AlphaControlService\AlphaControlService.exe | LocationOfUpdateZip = C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetAlphaControlService.cm | Version = 3.0.163 | ItemName = AlphaControlService | DataZip = |9
+2017-01-10 14:21:46.320|Starting Update to 3.0.163|9
+2017-01-10 14:21:46.320|UpdateItem | Name: AlphaControlService | FullLocation: C:\Cinemassive\AlphaControlService\AlphaControlService.exe | IsFolder: False|9
+2017-01-10 14:21:46.321|Going to update Alpha Control Service|9
+2017-01-10 14:21:46.322|Configuration Located at C:\Cinemassive\AlphaControlService\AlphaControlService.exe.config|9
+2017-01-10 14:21:46.322|Found configuration, backing up|9
+2017-01-10 14:21:46.322|Done backing up configuration|9
+2017-01-10 14:21:46.322|Deleting directory: 'C:\Cinemassive\AlphaControlService'|9
+2017-01-10 14:21:46.324|Checking for Directory Images|9
+2017-01-10 14:21:46.324|Deleting Directory Images|9
+2017-01-10 14:21:46.327|Checking for Directory Logs|9
+2017-01-10 14:21:46.327|Checking for Directory UnityLayoutTransitions|9
+2017-01-10 14:21:46.328|Deleting Directory UnityLayoutTransitions|9
+2017-01-10 14:21:46.357|Deleting File AlphaControlService.exe|9
+2017-01-10 14:21:46.357|Deleting File AlphaControlService.exe.config|8
+2017-01-10 14:21:46.358|Deleting File AlphaControlService.pdb|8
+2017-01-10 14:21:46.358|Deleting File AssimpNet.dll|8
+2017-01-10 14:21:46.358|Deleting File AssimpNet.pdb|8
+2017-01-10 14:21:46.358|Deleting File AutoMapper.dll|8
+2017-01-10 14:21:46.358|Deleting File AutoMapper.xml|8
+2017-01-10 14:21:46.358|Deleting File Castle.Core.dll|8
+2017-01-10 14:21:46.359|Deleting File Castle.Core.xml|8
+2017-01-10 14:21:46.359|Deleting File CineNet.Binding.dll|8
+2017-01-10 14:21:46.359|Deleting File CineNet.Binding.pdb|8
+2017-01-10 14:21:46.359|Deleting File CineNet.Client.Common.dll|8
+2017-01-10 14:21:46.359|Deleting File CineNet.Client.Common.dll.config|8
+2017-01-10 14:21:46.359|Deleting File CineNet.Client.Common.pdb|8
+2017-01-10 14:21:46.360|Deleting File CineNet.Common.dll|8
+2017-01-10 14:21:46.360|Deleting File CineNet.Communication.Web.dll|8
+2017-01-10 14:21:46.360|Deleting File CineNet.Enumerations.dll|8
+2017-01-10 14:21:46.360|Deleting File CineNet.Enumerations.dll.config|8
+2017-01-10 14:21:46.360|Deleting File CineNet.Enumerations.pdb|8
+2017-01-10 14:21:46.360|Deleting File CineNet.Features.DesktopStreaming.VNC.dll|8
+2017-01-10 14:21:46.361|Deleting File CineNet.Features.DesktopStreaming.VNC.pdb|8
+2017-01-10 14:21:46.361|Deleting File CineNet.Features.dll|8
+2017-01-10 14:21:46.361|Deleting File CineNet.Features.NonTested.dll|8
+2017-01-10 14:21:46.361|Deleting File CineNet.Features.NonTested.dll.config|8
+2017-01-10 14:21:46.361|Deleting File CineNet.Features.NonTested.pdb|8
+2017-01-10 14:21:46.361|Deleting File CineNet.Features.pdb|8
+2017-01-10 14:21:46.362|Deleting File CineNet.Features.ViewServer.Windows.dll|8
+2017-01-10 14:21:46.362|Deleting File CineNet.Features.ViewServer.Windows.pdb|8
+2017-01-10 14:21:46.362|Deleting File CineNet.Graphics.Canvas.dll|8
+2017-01-10 14:21:46.362|Deleting File CineNet.Graphics.Canvas.Interoperations.dll|8
+2017-01-10 14:21:46.362|Deleting File CineNet.Graphics.Canvas.Interoperations.pdb|8
+2017-01-10 14:21:46.362|Deleting File CineNet.Graphics.Canvas.pdb|8
+2017-01-10 14:21:46.363|Deleting File CineNet.Graphics.CaptureManager.Datapath.RGBEasy.dll|8
+2017-01-10 14:21:46.363|Deleting File CineNet.Graphics.CaptureManager.Datapath.RGBEasy.pdb|8
+2017-01-10 14:21:46.363|Deleting File CineNet.Graphics.CaptureManager.dll|8
+2017-01-10 14:21:46.363|Deleting File CineNet.Graphics.CaptureManager.pdb|8
+2017-01-10 14:21:46.363|Deleting File CineNet.Graphics.DataPathInterop.dll|8
+2017-01-10 14:21:46.363|Deleting File CineNet.Graphics.DataPathInterop.pdb|8
+2017-01-10 14:21:46.363|Deleting File CineNet.Graphics.Illustrate.dll|8
+2017-01-10 14:21:46.364|Deleting File CineNet.Graphics.Illustrate.pdb|8
+2017-01-10 14:21:46.364|Deleting File CineNet.Graphics.SceneGraph.Animation.dll|8
+2017-01-10 14:21:46.364|Deleting File CineNet.Graphics.SceneGraph.Animation.pdb|8
+2017-01-10 14:21:46.364|Deleting File CineNet.Infrastructure.dll|8
+2017-01-10 14:21:46.364|Deleting File CineNet.Infrastructure.dll.config|8
+2017-01-10 14:21:46.364|Deleting File CineNet.Infrastructure.pdb|8
+2017-01-10 14:21:46.365|Deleting File CineNet.Models.dll|8
+2017-01-10 14:21:46.365|Deleting File CineNet.Models.dll.config|8
+2017-01-10 14:21:46.365|Deleting File CineNet.Models.pdb|8
+2017-01-10 14:21:46.365|Deleting File CineNet.Modules.CinerFace.dll|8
+2017-01-10 14:21:46.365|Deleting File CineNet.Modules.CinerFace.pdb|8
+2017-01-10 14:21:46.365|Deleting File CineNet.Modules.ViewServer.dll|8
+2017-01-10 14:21:46.366|Deleting File CineNet.Modules.ViewServer.pdb|8
+2017-01-10 14:21:46.366|Deleting File CineNet.Modules.WallService.dll|8
+2017-01-10 14:21:46.366|Deleting File CineNet.Modules.WallService.pdb|8
+2017-01-10 14:21:46.366|Deleting File CineNet.Mongo.DataStore.dll|8
+2017-01-10 14:21:46.366|Deleting File CineNet.Mongo.DataStore.pdb|8
+2017-01-10 14:21:46.366|Deleting File CineNet.ViewServer.Library.dll|8
+2017-01-10 14:21:46.366|Deleting File CineNet.ViewServer.Library.dll.config|8
+2017-01-10 14:21:46.367|Deleting File CineNet.ViewServer.Library.pdb|8
+2017-01-10 14:21:46.367|Deleting File CineNet.WallControl.Library.dll|8
+2017-01-10 14:21:46.367|Deleting File CineNet.WallControl.Library.dll.config|8
+2017-01-10 14:21:46.367|Deleting File CineNet.WallControl.Library.pdb|8
+2017-01-10 14:21:46.367|Deleting File CineNet_ViewServer.exe|8
+2017-01-10 14:21:46.367|Deleting File CineNet_ViewServer.exe.config|8
+2017-01-10 14:21:46.368|Deleting File CineNet_ViewServer.pdb|8
+2017-01-10 14:21:46.368|Deleting File CineRestore.bat|8
+2017-01-10 14:21:46.368|Deleting File Emgu.CV.dll|8
+2017-01-10 14:21:46.368|Deleting File Emgu.Util.dll|8
+2017-01-10 14:21:46.368|Deleting File FakeO.dll|8
+2017-01-10 14:21:46.368|Deleting File GlavSoft.RemoteCoreSDK.Common.dll|8
+2017-01-10 14:21:46.369|Deleting File GlavSoft.Viewer.Common.dll|8
+2017-01-10 14:21:46.369|Deleting File GlavSoft.Viewer.Core.dll|8
+2017-01-10 14:21:46.369|Deleting File GlavSoft.Viewer.NativeCoreWrapper.x64.dll|8
+2017-01-10 14:21:46.369|Deleting File GlavSoft.Viewer.NativeCoreWrapper.x86.dll|8
+2017-01-10 14:21:46.369|Deleting File Glavsoft.Viewer.WPF.dll|8
+2017-01-10 14:21:46.369|Deleting File glew32.dll|8
+2017-01-10 14:21:46.369|Deleting File guard_claws.dll|8
+2017-01-10 14:21:46.370|Deleting File guard_claws.xml|8
+2017-01-10 14:21:46.370|Deleting File Humanizer.dll|8
+2017-01-10 14:21:46.370|Deleting File Humanizer.pdb|8
+2017-01-10 14:21:46.370|Deleting File Humanizer.xml|8
+2017-01-10 14:21:46.370|Deleting File ImageIdentification.dll|8
+2017-01-10 14:21:46.370|Deleting File ImageIdentification.pdb|8
+2017-01-10 14:21:46.371|Deleting File ImageIdentification.xml|8
+2017-01-10 14:21:46.371|Deleting File JetBrains.Annotations.dll|8
+2017-01-10 14:21:46.371|Deleting File JetBrains.Annotations.xml|8
+2017-01-10 14:21:46.371|Deleting File license|8
+2017-01-10 14:21:46.371|Deleting File Microsoft.AspNet.SignalR.Core.dll|8
+2017-01-10 14:21:46.371|Deleting File Microsoft.AspNet.SignalR.Core.xml|8
+2017-01-10 14:21:46.372|Deleting File Microsoft.Owin.dll|8
+2017-01-10 14:21:46.372|Deleting File Microsoft.Owin.Security.dll|8
+2017-01-10 14:21:46.372|Deleting File Microsoft.Owin.Security.xml|8
+2017-01-10 14:21:46.372|Deleting File Microsoft.Owin.xml|8
+2017-01-10 14:21:46.372|Deleting File Microsoft.Practices.ServiceLocation.dll|8
+2017-01-10 14:21:46.372|Deleting File Microsoft.Practices.ServiceLocation.pdb|8
+2017-01-10 14:21:46.372|Deleting File Microsoft.Practices.ServiceLocation.xml|8
+2017-01-10 14:21:46.373|Deleting File Microsoft.Practices.Unity.Configuration.dll|8
+2017-01-10 14:21:46.373|Deleting File Microsoft.Practices.Unity.Configuration.xml|8
+2017-01-10 14:21:46.373|Deleting File Microsoft.Practices.Unity.dll|8
+2017-01-10 14:21:46.373|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.dll|8
+2017-01-10 14:21:46.373|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.xml|8
+2017-01-10 14:21:46.373|Deleting File Microsoft.Practices.Unity.xml|8
+2017-01-10 14:21:46.374|Deleting File MongoDB.Bson.dll|8
+2017-01-10 14:21:46.374|Deleting File MongoDB.Bson.xml|8
+2017-01-10 14:21:46.374|Deleting File MongoDB.Driver.Core.dll|8
+2017-01-10 14:21:46.374|Deleting File MongoDB.Driver.Core.xml|8
+2017-01-10 14:21:46.374|Deleting File MongoDB.Driver.dll|8
+2017-01-10 14:21:46.374|Deleting File MongoDB.Driver.xml|8
+2017-01-10 14:21:46.375|Deleting File Newtonsoft.Json.dll|8
+2017-01-10 14:21:46.375|Deleting File Newtonsoft.Json.xml|8
+2017-01-10 14:21:46.375|Deleting File OpenTK.dll|8
+2017-01-10 14:21:46.375|Deleting File OpenTK.xml|8
+2017-01-10 14:21:46.375|Deleting File Owin.dll|8
+2017-01-10 14:21:46.375|Deleting File Priority Queue.dll|8
+2017-01-10 14:21:46.376|Deleting File Priority Queue.pdb|8
+2017-01-10 14:21:46.376|Deleting File Priority Queue.xml|8
+2017-01-10 14:21:46.376|Deleting File Renci.SshNet.dll|8
+2017-01-10 14:21:46.376|Deleting File Renci.SshNet.xml|8
+2017-01-10 14:21:46.376|Deleting File SharpGL.dll|8
+2017-01-10 14:21:46.376|Deleting File SharpGL.pdb|8
+2017-01-10 14:21:46.376|Deleting File SharpGL.SceneGraph.dll|8
+2017-01-10 14:21:46.377|Deleting File SharpGL.SceneGraph.pdb|8
+2017-01-10 14:21:46.377|Deleting File SharpGL.SceneGraph.xml|8
+2017-01-10 14:21:46.377|Deleting File SharpGL.WPF.dll|8
+2017-01-10 14:21:46.377|Deleting File SharpGL.WPF.pdb|8
+2017-01-10 14:21:46.377|Deleting File SharpGL.WPF.xml|8
+2017-01-10 14:21:46.377|Deleting File SharpGL.xml|8
+2017-01-10 14:21:46.378|Deleting File System.Runtime.InteropServices.RuntimeInformation.dll|8
+2017-01-10 14:21:46.378|Deleting File version.cm|8
+2017-01-10 14:21:46.378|Deleting File VncSharp.dll|9
+2017-01-10 14:21:46.378|Deleting File VncSharp.pdb|9
+2017-01-10 14:21:46.378|Deleting File zxing.dll|9
+2017-01-10 14:21:46.378|Deleting File zxing.pdb|9
+2017-01-10 14:21:46.379|Deleting File zxing.xml|9
+2017-01-10 14:21:46.379|Done deleting directory: 'C:\Cinemassive\AlphaControlService'|9
+2017-01-10 14:21:46.379|Creating directory at 'C:\Cinemassive\AlphaControlService'|9
+2017-01-10 14:21:46.379|Extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetAlphaControlService.cm to C:\Cinemassive\AlphaControlService|9
+2017-01-10 14:21:46.961|Completed extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetAlphaControlService.cm to C:\Cinemassive\AlphaControlService|9
+2017-01-10 14:21:46.962|Saving configuration to C:\Cinemassive\AlphaControlService\AlphaControlService.exe.config|9
+2017-01-10 14:21:46.962|Done saving configuration to C:\Cinemassive\AlphaControlService\AlphaControlService.exe.config|9
+2017-01-10 14:21:46.962|Saving v3.0.163 to 'C:\Cinemassive\AlphaControlService\version.cm'|9
+2017-01-10 14:21:46.962|Done saving v3.0.163 to 'C:\Cinemassive\AlphaControlService\version.cm'|9
+2017-01-10 14:21:46.965|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' complete.  Exit Code: 0|4
+2017-01-10 14:21:55.996|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|4
+2017-01-10 14:21:58.911|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|4
+2017-01-10 14:21:59.423|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Running Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' with arguments | -n CineNetNetworkManager -i C:\Cinemassive\NetworkManager\CineNetNetworkManager.exe -z C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetNetworkManager.cm -v 3.0.163|4
+2017-01-10 14:22:00.049|Running Update with options of: UpdateOptions | ItemToUpdate = C:\Cinemassive\NetworkManager\CineNetNetworkManager.exe | LocationOfUpdateZip = C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetNetworkManager.cm | Version = 3.0.163 | ItemName = CineNetNetworkManager | DataZip = |3
+2017-01-10 14:22:00.049|Starting Update to 3.0.163|3
+2017-01-10 14:22:00.049|UpdateItem | Name: CineNetNetworkManager | FullLocation: C:\Cinemassive\NetworkManager\CineNetNetworkManager.exe | IsFolder: False|3
+2017-01-10 14:22:00.050|Going to update CineNet Network Manager|3
+2017-01-10 14:22:00.051|Stopping service CineNetNetworkManager|3
+2017-01-10 14:22:01.053|Service CineNetNetworkManager has been stopped.|3
+2017-01-10 14:22:01.053|Going to Set Up Mongo%%%%%%%%%|3
+2017-01-10 14:22:01.054|============================================================================================================================================|3
+2017-01-10 14:22:01.055|MongoDB is already installed skipping install of MongoDB|3
+2017-01-10 14:22:01.056|Going to Set Up Mongo%%%%%%%%%|3
+2017-01-10 14:22:01.056|Configuration Located at C:\Cinemassive\NetworkManager\CineNetNetworkManager.exe.config|3
+2017-01-10 14:22:01.056|Found configuration, backing up|3
+2017-01-10 14:22:01.056|Done backing up configuration|3
+2017-01-10 14:22:01.056|Deleting directory: 'C:\Cinemassive\NetworkManager'|3
+2017-01-10 14:22:01.057|Checking for Directory DatabaseBackUps|3
+2017-01-10 14:22:01.057|Deleting Directory DatabaseBackUps|3
+2017-01-10 14:22:01.086|Checking for Directory Logs|3
+2017-01-10 14:22:01.086|Checking for Directory Scripts|3
+2017-01-10 14:22:01.086|Deleting Directory Scripts|3
+2017-01-10 14:22:01.087|Deleting File AutoMapper.dll|3
+2017-01-10 14:22:01.087|Deleting File AutoMapper.xml|3
+2017-01-10 14:22:01.087|Deleting File Castle.Core.dll|3
+2017-01-10 14:22:01.087|Deleting File Castle.Core.xml|3
+2017-01-10 14:22:01.087|Deleting File CineNet.Common.dll|3
+2017-01-10 14:22:01.088|Deleting File CineNet.Communication.Web.dll|3
+2017-01-10 14:22:01.088|Deleting File CineNet.NetworkManager.dll|3
+2017-01-10 14:22:01.088|Deleting File CineNet.NetworkManager.dll.config|3
+2017-01-10 14:22:01.088|Deleting File CineNet.NetworkManager.pdb|3
+2017-01-10 14:22:01.088|Deleting File CineNetNetworkManager.exe|3
+2017-01-10 14:22:01.088|Deleting File CineNetNetworkManager.exe.config|3
+2017-01-10 14:22:01.089|Deleting File CineNetNetworkManager.InstallLog|3
+2017-01-10 14:22:01.089|Deleting File CineNetNetworkManager.InstallState|3
+2017-01-10 14:22:01.089|Deleting File CineNetNetworkManager.pdb|3
+2017-01-10 14:22:01.089|Deleting File guard_claws.dll|3
+2017-01-10 14:22:01.089|Deleting File guard_claws.xml|3
+2017-01-10 14:22:01.089|Deleting File Humanizer.dll|3
+2017-01-10 14:22:01.090|Deleting File Humanizer.xml|3
+2017-01-10 14:22:01.090|Deleting File JetBrains.Annotations.dll|3
+2017-01-10 14:22:01.090|Deleting File JetBrains.Annotations.xml|3
+2017-01-10 14:22:01.090|Deleting File Microsoft.Practices.ServiceLocation.dll|3
+2017-01-10 14:22:01.090|Deleting File Microsoft.Practices.ServiceLocation.xml|3
+2017-01-10 14:22:01.090|Deleting File Microsoft.Practices.Unity.Configuration.dll|3
+2017-01-10 14:22:01.091|Deleting File Microsoft.Practices.Unity.Configuration.xml|3
+2017-01-10 14:22:01.091|Deleting File Microsoft.Practices.Unity.dll|3
+2017-01-10 14:22:01.091|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.dll|3
+2017-01-10 14:22:01.091|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.xml|3
+2017-01-10 14:22:01.091|Deleting File Microsoft.Practices.Unity.xml|3
+2017-01-10 14:22:01.091|Deleting File MongoDB.Bson.dll|3
+2017-01-10 14:22:01.092|Deleting File MongoDB.Bson.xml|3
+2017-01-10 14:22:01.092|Deleting File MongoDB.Driver.Core.dll|3
+2017-01-10 14:22:01.092|Deleting File MongoDB.Driver.Core.xml|3
+2017-01-10 14:22:01.092|Deleting File MongoDB.Driver.dll|3
+2017-01-10 14:22:01.092|Deleting File MongoDB.Driver.xml|3
+2017-01-10 14:22:01.092|Deleting File Newtonsoft.Json.dll|3
+2017-01-10 14:22:01.092|Deleting File Newtonsoft.Json.xml|3
+2017-01-10 14:22:01.093|Deleting File Priority Queue.dll|3
+2017-01-10 14:22:01.093|Deleting File Priority Queue.xml|3
+2017-01-10 14:22:01.093|Deleting File Renci.SshNet.dll|3
+2017-01-10 14:22:01.093|Deleting File Renci.SshNet.xml|3
+2017-01-10 14:22:01.093|Deleting File System.Management.Automation.dll|3
+2017-01-10 14:22:01.093|Deleting File System.Runtime.InteropServices.RuntimeInformation.dll|3
+2017-01-10 14:22:01.094|Deleting File version.cm|3
+2017-01-10 14:22:01.094|Done deleting directory: 'C:\Cinemassive\NetworkManager'|3
+2017-01-10 14:22:01.094|Creating directory at 'C:\Cinemassive\NetworkManager'|3
+2017-01-10 14:22:01.094|Extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetNetworkManager.cm to C:\Cinemassive\NetworkManager|3
+2017-01-10 14:22:01.201|Completed extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetNetworkManager.cm to C:\Cinemassive\NetworkManager|3
+2017-01-10 14:22:01.201|Saving configuration to C:\Cinemassive\NetworkManager\CineNetNetworkManager.exe.config|8
+2017-01-10 14:22:01.201|Done saving configuration to C:\Cinemassive\NetworkManager\CineNetNetworkManager.exe.config|8
+2017-01-10 14:22:01.201|Saving v3.0.163 to 'C:\Cinemassive\NetworkManager\version.cm'|8
+2017-01-10 14:22:01.201|Done saving v3.0.163 to 'C:\Cinemassive\NetworkManager\version.cm'|8
+2017-01-10 14:22:01.202|Starting service CineNetNetworkManager|8
+2017-01-10 14:22:01.716|Done starting service CineNetNetworkManager|8
+2017-01-10 14:22:01.719|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' complete.  Exit Code: 0|4
+2017-01-10 14:22:11.264|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|14
+2017-01-10 14:22:14.385|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|14
+2017-01-10 14:22:14.907|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Running Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' with arguments | -n CineNetAuthenticationService -i C:\Cinemassive\AuthenticationService\CineNetAuthenticationService.exe -z C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetAuthenticationService.cm -v 3.0.163|14
+2017-01-10 14:22:15.475|Running Update with options of: UpdateOptions | ItemToUpdate = C:\Cinemassive\AuthenticationService\CineNetAuthenticationService.exe | LocationOfUpdateZip = C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetAuthenticationService.cm | Version = 3.0.163 | ItemName = CineNetAuthenticationService | DataZip = |9
+2017-01-10 14:22:15.476|Starting Update to 3.0.163|9
+2017-01-10 14:22:15.476|UpdateItem | Name: CineNetAuthenticationService | FullLocation: C:\Cinemassive\AuthenticationService\CineNetAuthenticationService.exe | IsFolder: False|9
+2017-01-10 14:22:15.477|Going to update CineNet Authentication Service|9
+2017-01-10 14:22:15.478|Stopping service CineNetAuthenticationService|9
+2017-01-10 14:22:16.479|Service CineNetAuthenticationService has been stopped.|9
+2017-01-10 14:22:16.479|Going to Set Up Mongo%%%%%%%%%|9
+2017-01-10 14:22:16.481|============================================================================================================================================|9
+2017-01-10 14:22:16.482|MongoDB is already installed skipping install of MongoDB|9
+2017-01-10 14:22:16.482|Going to Set Up Mongo%%%%%%%%%|9
+2017-01-10 14:22:16.482|Configuration Located at C:\Cinemassive\AuthenticationService\CineNetAuthenticationService.exe.config|9
+2017-01-10 14:22:16.482|Found configuration, backing up|9
+2017-01-10 14:22:16.482|Done backing up configuration|9
+2017-01-10 14:22:16.483|Deleting directory: 'C:\Cinemassive\AuthenticationService'|9
+2017-01-10 14:22:16.483|Checking for Directory Logs|9
+2017-01-10 14:22:16.484|Deleting File Castle.Core.dll|9
+2017-01-10 14:22:16.484|Deleting File Castle.Core.xml|9
+2017-01-10 14:22:16.484|Deleting File CineNet.AuthenticationService.dll|9
+2017-01-10 14:22:16.484|Deleting File CineNet.AuthenticationService.pdb|9
+2017-01-10 14:22:16.484|Deleting File CineNet.Common.dll|9
+2017-01-10 14:22:16.485|Deleting File CineNet.Communication.Web.dll|9
+2017-01-10 14:22:16.485|Deleting File CineNetAuthenticationService.exe|9
+2017-01-10 14:22:16.485|Deleting File CineNetAuthenticationService.exe.config|9
+2017-01-10 14:22:16.485|Deleting File CineNetAuthenticationService.InstallLog|9
+2017-01-10 14:22:16.485|Deleting File CineNetAuthenticationService.InstallState|9
+2017-01-10 14:22:16.486|Deleting File CineNetAuthenticationService.pdb|9
+2017-01-10 14:22:16.486|Deleting File guard_claws.dll|9
+2017-01-10 14:22:16.486|Deleting File guard_claws.xml|9
+2017-01-10 14:22:16.486|Deleting File Humanizer.dll|9
+2017-01-10 14:22:16.486|Deleting File Humanizer.xml|9
+2017-01-10 14:22:16.486|Deleting File JetBrains.Annotations.dll|9
+2017-01-10 14:22:16.487|Deleting File JetBrains.Annotations.xml|9
+2017-01-10 14:22:16.487|Deleting File Microsoft.Practices.ServiceLocation.dll|9
+2017-01-10 14:22:16.487|Deleting File Microsoft.Practices.ServiceLocation.xml|9
+2017-01-10 14:22:16.487|Deleting File Microsoft.Practices.Unity.Configuration.dll|9
+2017-01-10 14:22:16.487|Deleting File Microsoft.Practices.Unity.Configuration.xml|9
+2017-01-10 14:22:16.488|Deleting File Microsoft.Practices.Unity.dll|9
+2017-01-10 14:22:16.488|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.dll|9
+2017-01-10 14:22:16.488|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.xml|9
+2017-01-10 14:22:16.488|Deleting File Microsoft.Practices.Unity.xml|9
+2017-01-10 14:22:16.488|Deleting File MongoDB.Bson.dll|9
+2017-01-10 14:22:16.488|Deleting File MongoDB.Bson.xml|9
+2017-01-10 14:22:16.489|Deleting File MongoDB.Driver.Core.dll|9
+2017-01-10 14:22:16.489|Deleting File MongoDB.Driver.Core.xml|9
+2017-01-10 14:22:16.489|Deleting File MongoDB.Driver.dll|9
+2017-01-10 14:22:16.489|Deleting File MongoDB.Driver.xml|9
+2017-01-10 14:22:16.489|Deleting File Newtonsoft.Json.dll|9
+2017-01-10 14:22:16.489|Deleting File Newtonsoft.Json.xml|9
+2017-01-10 14:22:16.490|Deleting File Priority Queue.dll|9
+2017-01-10 14:22:16.490|Deleting File Priority Queue.xml|9
+2017-01-10 14:22:16.490|Deleting File Renci.SshNet.dll|9
+2017-01-10 14:22:16.490|Deleting File Renci.SshNet.xml|9
+2017-01-10 14:22:16.490|Deleting File version.cm|9
+2017-01-10 14:22:16.491|Done deleting directory: 'C:\Cinemassive\AuthenticationService'|9
+2017-01-10 14:22:16.491|Creating directory at 'C:\Cinemassive\AuthenticationService'|9
+2017-01-10 14:22:16.491|Extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetAuthenticationService.cm to C:\Cinemassive\AuthenticationService|9
+2017-01-10 14:22:16.568|Completed extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetAuthenticationService.cm to C:\Cinemassive\AuthenticationService|9
+2017-01-10 14:22:16.569|Saving configuration to C:\Cinemassive\AuthenticationService\CineNetAuthenticationService.exe.config|9
+2017-01-10 14:22:16.569|Done saving configuration to C:\Cinemassive\AuthenticationService\CineNetAuthenticationService.exe.config|9
+2017-01-10 14:22:16.569|Saving v3.0.163 to 'C:\Cinemassive\AuthenticationService\version.cm'|9
+2017-01-10 14:22:16.569|Done saving v3.0.163 to 'C:\Cinemassive\AuthenticationService\version.cm'|9
+2017-01-10 14:22:16.569|Starting service CineNetAuthenticationService|9
+2017-01-10 14:22:16.838|Done starting service CineNetAuthenticationService|9
+2017-01-10 14:22:16.841|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' complete.  Exit Code: 0|14
+2017-01-10 14:22:30.090|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|16
+2017-01-10 14:22:35.445|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|16
+2017-01-10 14:22:35.972|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Running Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' with arguments | -n CineNetDeviceControl -i C:\Cinemassive\DeviceControl\CineNetDeviceControlService.exe -z C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetDeviceControl.cm -v 3.0.163|16
+2017-01-10 14:22:36.445|Running Update with options of: UpdateOptions | ItemToUpdate = C:\Cinemassive\DeviceControl\CineNetDeviceControlService.exe | LocationOfUpdateZip = C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetDeviceControl.cm | Version = 3.0.163 | ItemName = CineNetDeviceControl | DataZip = |7
+2017-01-10 14:22:36.445|Starting Update to 3.0.163|7
+2017-01-10 14:22:36.445|UpdateItem | Name: CineNetDeviceControl | FullLocation: C:\Cinemassive\DeviceControl\CineNetDeviceControlService.exe | IsFolder: False|7
+2017-01-10 14:22:36.446|Going to update CineNet Device Control|7
+2017-01-10 14:22:36.447|Stopping service CineNetDeviceControl|7
+2017-01-10 14:22:41.700|Service CineNetDeviceControl has been stopped.|7
+2017-01-10 14:22:41.700|Going to Set Up Mongo%%%%%%%%%|5
+2017-01-10 14:22:41.702|============================================================================================================================================|5
+2017-01-10 14:22:41.703|MongoDB is already installed skipping install of MongoDB|5
+2017-01-10 14:22:41.703|Going to Set Up Mongo%%%%%%%%%|5
+2017-01-10 14:22:41.703|Configuration Located at C:\Cinemassive\DeviceControl\CineNetDeviceControlService.exe.config|5
+2017-01-10 14:22:41.703|Found configuration, backing up|5
+2017-01-10 14:22:41.703|Done backing up configuration|5
+2017-01-10 14:22:41.704|Deleting directory: 'C:\Cinemassive\DeviceControl'|5
+2017-01-10 14:22:41.704|Checking for Directory Logs|5
+2017-01-10 14:22:41.705|Deleting File AutoMapper.dll|5
+2017-01-10 14:22:41.705|Deleting File AutoMapper.xml|5
+2017-01-10 14:22:41.705|Deleting File Castle.Core.dll|5
+2017-01-10 14:22:41.705|Deleting File Castle.Core.xml|5
+2017-01-10 14:22:41.706|Deleting File CineNet.Common.dll|5
+2017-01-10 14:22:41.706|Deleting File CineNet.Communication.Web.dll|5
+2017-01-10 14:22:41.706|Deleting File CineNet.DeviceControl.dll|5
+2017-01-10 14:22:41.706|Deleting File CineNet.DeviceControl.dll.config|5
+2017-01-10 14:22:41.706|Deleting File CineNet.DeviceControl.pdb|5
+2017-01-10 14:22:41.706|Deleting File CineNetDeviceControlService.exe|5
+2017-01-10 14:22:41.707|Deleting File CineNetDeviceControlService.exe.config|5
+2017-01-10 14:22:41.707|Deleting File CineNetDeviceControlService.InstallLog|5
+2017-01-10 14:22:41.707|Deleting File CineNetDeviceControlService.InstallState|5
+2017-01-10 14:22:41.707|Deleting File CineNetDeviceControlService.pdb|5
+2017-01-10 14:22:41.707|Deleting File guard_claws.dll|5
+2017-01-10 14:22:41.708|Deleting File guard_claws.xml|5
+2017-01-10 14:22:41.708|Deleting File Humanizer.dll|5
+2017-01-10 14:22:41.708|Deleting File Humanizer.xml|5
+2017-01-10 14:22:41.708|Deleting File JetBrains.Annotations.dll|5
+2017-01-10 14:22:41.708|Deleting File JetBrains.Annotations.xml|5
+2017-01-10 14:22:41.708|Deleting File Microsoft.Practices.ServiceLocation.dll|5
+2017-01-10 14:22:41.709|Deleting File Microsoft.Practices.ServiceLocation.xml|5
+2017-01-10 14:22:41.709|Deleting File Microsoft.Practices.Unity.Configuration.dll|5
+2017-01-10 14:22:41.709|Deleting File Microsoft.Practices.Unity.Configuration.xml|5
+2017-01-10 14:22:41.709|Deleting File Microsoft.Practices.Unity.dll|5
+2017-01-10 14:22:41.709|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.dll|5
+2017-01-10 14:22:41.709|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.xml|5
+2017-01-10 14:22:41.710|Deleting File Microsoft.Practices.Unity.xml|5
+2017-01-10 14:22:41.710|Deleting File MongoDB.Bson.dll|5
+2017-01-10 14:22:41.710|Deleting File MongoDB.Bson.xml|5
+2017-01-10 14:22:41.710|Deleting File MongoDB.Driver.Core.dll|5
+2017-01-10 14:22:41.710|Deleting File MongoDB.Driver.Core.xml|5
+2017-01-10 14:22:41.711|Deleting File MongoDB.Driver.dll|5
+2017-01-10 14:22:41.711|Deleting File MongoDB.Driver.xml|5
+2017-01-10 14:22:41.711|Deleting File Newtonsoft.Json.dll|5
+2017-01-10 14:22:41.711|Deleting File Newtonsoft.Json.xml|5
+2017-01-10 14:22:41.711|Deleting File Priority Queue.dll|5
+2017-01-10 14:22:41.711|Deleting File Priority Queue.xml|5
+2017-01-10 14:22:41.712|Deleting File Renci.SshNet.dll|5
+2017-01-10 14:22:41.712|Deleting File Renci.SshNet.xml|5
+2017-01-10 14:22:41.712|Deleting File System.Runtime.InteropServices.RuntimeInformation.dll|5
+2017-01-10 14:22:41.712|Deleting File version.cm|5
+2017-01-10 14:22:41.712|Done deleting directory: 'C:\Cinemassive\DeviceControl'|5
+2017-01-10 14:22:41.713|Creating directory at 'C:\Cinemassive\DeviceControl'|5
+2017-01-10 14:22:41.713|Extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetDeviceControl.cm to C:\Cinemassive\DeviceControl|5
+2017-01-10 14:22:41.801|Completed extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetDeviceControl.cm to C:\Cinemassive\DeviceControl|5
+2017-01-10 14:22:41.801|Saving configuration to C:\Cinemassive\DeviceControl\CineNetDeviceControlService.exe.config|5
+2017-01-10 14:22:41.801|Done saving configuration to C:\Cinemassive\DeviceControl\CineNetDeviceControlService.exe.config|5
+2017-01-10 14:22:41.801|Saving v3.0.163 to 'C:\Cinemassive\DeviceControl\version.cm'|5
+2017-01-10 14:22:41.801|Done saving v3.0.163 to 'C:\Cinemassive\DeviceControl\version.cm'|5
+2017-01-10 14:22:41.802|Starting service CineNetDeviceControl|5
+2017-01-10 14:22:45.316|Done starting service CineNetDeviceControl|5
+2017-01-10 14:22:45.319|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' complete.  Exit Code: 0|16
+2017-01-10 14:22:55.347|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|18
+2017-01-10 14:22:58.622|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Uploading File to folder C:\Cinemassive\CineNetBootStrapper\Uploads|18
+2017-01-10 14:22:59.137|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Running Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' with arguments | -n CineNetRoomService -i C:\Cinemassive\RoomService\CineNetRoomService.exe -z C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetRoomService.cm -v 3.0.163|17
+2017-01-10 14:22:59.713|Running Update with options of: UpdateOptions | ItemToUpdate = C:\Cinemassive\RoomService\CineNetRoomService.exe | LocationOfUpdateZip = C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetRoomService.cm | Version = 3.0.163 | ItemName = CineNetRoomService | DataZip = |9
+2017-01-10 14:22:59.713|Starting Update to 3.0.163|9
+2017-01-10 14:22:59.713|UpdateItem | Name: CineNetRoomService | FullLocation: C:\Cinemassive\RoomService\CineNetRoomService.exe | IsFolder: False|9
+2017-01-10 14:22:59.714|Going to update CineNet Room Service|9
+2017-01-10 14:22:59.715|Stopping service CineNetRoomService|9
+2017-01-10 14:23:00.717|Service CineNetRoomService has been stopped.|9
+2017-01-10 14:23:00.717|Going to Set Up Mongo%%%%%%%%%|9
+2017-01-10 14:23:00.718|============================================================================================================================================|9
+2017-01-10 14:23:00.720|MongoDB is already installed skipping install of MongoDB|9
+2017-01-10 14:23:00.720|Going to Set Up Mongo%%%%%%%%%|9
+2017-01-10 14:23:00.720|Configuration Located at C:\Cinemassive\RoomService\CineNetRoomService.exe.config|9
+2017-01-10 14:23:00.720|Found configuration, backing up|9
+2017-01-10 14:23:00.720|Done backing up configuration|9
+2017-01-10 14:23:00.720|Deleting directory: 'C:\Cinemassive\RoomService'|9
+2017-01-10 14:23:00.721|Checking for Directory Logs|9
+2017-01-10 14:23:00.722|Deleting File AutoMapper.dll|9
+2017-01-10 14:23:00.722|Deleting File AutoMapper.xml|9
+2017-01-10 14:23:00.722|Deleting File Castle.Core.dll|9
+2017-01-10 14:23:00.722|Deleting File Castle.Core.xml|9
+2017-01-10 14:23:00.722|Deleting File CineNet.Common.dll|9
+2017-01-10 14:23:00.723|Deleting File CineNet.Communication.Web.dll|9
+2017-01-10 14:23:00.723|Deleting File CineNet.RoomService.dll|9
+2017-01-10 14:23:00.723|Deleting File CineNet.RoomService.pdb|9
+2017-01-10 14:23:00.723|Deleting File CineNetRoomService.exe|9
+2017-01-10 14:23:00.723|Deleting File CineNetRoomService.exe.config|9
+2017-01-10 14:23:00.726|Deleting File CineNetRoomService.InstallLog|9
+2017-01-10 14:23:00.726|Deleting File CineNetRoomService.InstallState|9
+2017-01-10 14:23:00.726|Deleting File CineNetRoomService.pdb|9
+2017-01-10 14:23:00.726|Deleting File guard_claws.dll|9
+2017-01-10 14:23:00.727|Deleting File guard_claws.xml|9
+2017-01-10 14:23:00.727|Deleting File Humanizer.dll|9
+2017-01-10 14:23:00.727|Deleting File Humanizer.xml|9
+2017-01-10 14:23:00.727|Deleting File JetBrains.Annotations.dll|9
+2017-01-10 14:23:00.727|Deleting File JetBrains.Annotations.xml|9
+2017-01-10 14:23:00.728|Deleting File Microsoft.Practices.ServiceLocation.dll|9
+2017-01-10 14:23:00.728|Deleting File Microsoft.Practices.ServiceLocation.xml|9
+2017-01-10 14:23:00.728|Deleting File Microsoft.Practices.Unity.Configuration.dll|9
+2017-01-10 14:23:00.728|Deleting File Microsoft.Practices.Unity.Configuration.xml|9
+2017-01-10 14:23:00.728|Deleting File Microsoft.Practices.Unity.dll|9
+2017-01-10 14:23:00.728|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.dll|9
+2017-01-10 14:23:00.729|Deleting File Microsoft.Practices.Unity.RegistrationByConvention.xml|9
+2017-01-10 14:23:00.729|Deleting File Microsoft.Practices.Unity.xml|9
+2017-01-10 14:23:00.729|Deleting File MongoDB.Bson.dll|9
+2017-01-10 14:23:00.729|Deleting File MongoDB.Bson.xml|9
+2017-01-10 14:23:00.729|Deleting File MongoDB.Driver.Core.dll|9
+2017-01-10 14:23:00.729|Deleting File MongoDB.Driver.Core.xml|9
+2017-01-10 14:23:00.730|Deleting File MongoDB.Driver.dll|9
+2017-01-10 14:23:00.730|Deleting File MongoDB.Driver.xml|9
+2017-01-10 14:23:00.730|Deleting File Newtonsoft.Json.dll|9
+2017-01-10 14:23:00.730|Deleting File Newtonsoft.Json.xml|9
+2017-01-10 14:23:00.730|Deleting File Priority Queue.dll|9
+2017-01-10 14:23:00.731|Deleting File Priority Queue.xml|9
+2017-01-10 14:23:00.731|Deleting File Renci.SshNet.dll|9
+2017-01-10 14:23:00.731|Deleting File Renci.SshNet.xml|9
+2017-01-10 14:23:00.731|Deleting File System.Runtime.InteropServices.RuntimeInformation.dll|9
+2017-01-10 14:23:00.731|Deleting File version.cm|9
+2017-01-10 14:23:00.732|Done deleting directory: 'C:\Cinemassive\RoomService'|9
+2017-01-10 14:23:00.733|Creating directory at 'C:\Cinemassive\RoomService'|9
+2017-01-10 14:23:00.733|Extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetRoomService.cm to C:\Cinemassive\RoomService|9
+2017-01-10 14:23:00.818|Completed extracting C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetRoomService.cm to C:\Cinemassive\RoomService|9
+2017-01-10 14:23:00.819|Saving configuration to C:\Cinemassive\RoomService\CineNetRoomService.exe.config|3
+2017-01-10 14:23:00.819|Done saving configuration to C:\Cinemassive\RoomService\CineNetRoomService.exe.config|3
+2017-01-10 14:23:00.819|Saving v3.0.163 to 'C:\Cinemassive\RoomService\version.cm'|3
+2017-01-10 14:23:00.819|Done saving v3.0.163 to 'C:\Cinemassive\RoomService\version.cm'|3
+2017-01-10 14:23:00.819|Starting service CineNetRoomService|3
+2017-01-10 14:23:01.333|Done starting service CineNetRoomService|3
+2017-01-10 14:23:01.336|System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke|Process 'C:\Cinemassive\CineNetBootStrapper\Uploads\CineNetUpdater.exe' complete.  Exit Code: 0|17

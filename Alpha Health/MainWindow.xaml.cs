@@ -12,17 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Alpha_Health.Model;
+using System.Timers;
 
 namespace Alpha_Health
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-
         CodeRunner codeRunning = new CodeRunner();
-
+        Timer myTimer;
         public MainWindow()
         {
             InitializeComponent();
@@ -31,15 +29,19 @@ namespace Alpha_Health
 
         private void viewButton_Click(object sender, RoutedEventArgs e)
         {
-            //StackPanel.Children.Clear();
+            StackPanel.Children.Clear();
+            string hostname = comboBox.Text;
+            codeRunning.setLocalDirectory(hostname);
+            codeRunning.setDirectoryArray(hostname);
+            List<string> directoryArray = codeRunning.getDirectoryArray();
 
-            LogInfoUserControl item = new LogInfoUserControl();
-            string selected = comboBox.Text;
+            foreach (string directory in directoryArray)
+            {
+                LogInfoUserControl LogInfo = new LogInfoUserControl();
 
-            codeRunning.populateWithLogInfo(StackPanel, item);
-            codeRunning.pingAlpha(selected);
+                LogInfo.createLogInfo(StackPanel, LogInfo, directory, codeRunning);
+            }
 
-            Console.WriteLine(selected);
         }
 
         private void clearButton_Click(object sender, RoutedEventArgs e)
@@ -47,7 +49,29 @@ namespace Alpha_Health
             StackPanel.Children.Clear();
         }
 
-        
-        
+        private void trackButton_Click(object sender, RoutedEventArgs e)
+        {
+            myTimer = new Timer
+            {
+                Interval = 2000,
+                Enabled = true
+            };
+            myTimer.Elapsed += new ElapsedEventHandler(Repeat);
+        }
+
+        public void Repeat(object source, ElapsedEventArgs e)
+        {
+            string hostname = comboBox.Text;
+            codeRunning.setLocalDirectory(hostname);
+            codeRunning.setDirectoryArray(hostname);
+            List<string> directoryArray = codeRunning.getDirectoryArray();
+
+            foreach (string directory in directoryArray)
+            {
+                LogInfoUserControl LogInfo = new LogInfoUserControl();
+
+                LogInfo.createLogInfo(StackPanel, LogInfo, directory, codeRunning);
+            }
+        }
     }
 }

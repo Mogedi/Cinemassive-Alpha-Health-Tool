@@ -12,9 +12,8 @@ namespace Alpha_Health
 
         public ComboBoxDataClass()
         {
-            comboBoxList = new List<string>(new string[] {"Enterprise", "Galactica", "HeartOfGold", "JupiterII",
-                "LobbyFX", "Normandy", "Nostromo", "Serenity", "Starfury", "Tigersclaw",
-                "WhiteStar", "Voyager", "Awing",  "Bwing", "Xwing", "Ywing"});
+            comboBoxList = new List<string>(new string[] {"Enterprise", "Galactica", "HeartOfGold", "JupiterII", "Normandy", "Nostromo",
+                "Serenity", "Starfury", "Tigersclaw", "WhiteStar", "Voyager", "Awing",  "Bwing", "Xwing", "Ywing"});
         }
 
         public List<string> getComboBoxData()

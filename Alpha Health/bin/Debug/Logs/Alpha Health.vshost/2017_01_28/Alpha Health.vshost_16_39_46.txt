@@ -1,0 +1,198 @@
+2017-01-28 16:39:46.038|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.042|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.049|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.053|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.SystemException|9
+2017-01-28 16:39:46.057|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: System error.|9
+2017-01-28 16:39:46.061|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.064|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.067|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.071|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.074|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.SystemException|9
+2017-01-28 16:39:46.077|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: System error.|9
+2017-01-28 16:39:46.081|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.085|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.088|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.219|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.222|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.SystemException|9
+2017-01-28 16:39:46.224|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: System error.|9
+2017-01-28 16:39:46.227|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.230|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.233|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.237|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.240|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentException|9
+2017-01-28 16:39:46.251|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Value does not fall within the expected range.|9
+2017-01-28 16:39:46.254|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.257|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.260|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.263|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.267|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentException|9
+2017-01-28 16:39:46.269|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Value does not fall within the expected range.|9
+2017-01-28 16:39:46.271|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.273|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.275|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.418|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.421|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentException|9
+2017-01-28 16:39:46.424|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Value does not fall within the expected range.|9
+2017-01-28 16:39:46.427|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.430|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.433|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.436|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.439|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentNullException|9
+2017-01-28 16:39:46.443|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Value cannot be null.|9
+2017-01-28 16:39:46.446|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.449|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.452|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.455|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.458|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentNullException|9
+2017-01-28 16:39:46.461|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Value cannot be null.|9
+2017-01-28 16:39:46.463|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.465|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.468|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.619|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.622|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentNullException|9
+2017-01-28 16:39:46.626|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Value cannot be null.|9
+2017-01-28 16:39:46.629|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.632|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.635|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.639|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.642|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentOutOfRangeException|9
+2017-01-28 16:39:46.645|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified argument was out of the range of valid values.|9
+2017-01-28 16:39:46.648|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.651|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.655|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.819|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.821|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentOutOfRangeException|9
+2017-01-28 16:39:46.823|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified argument was out of the range of valid values.|9
+2017-01-28 16:39:46.826|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.829|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.832|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.834|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.841|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArgumentOutOfRangeException|9
+2017-01-28 16:39:46.843|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified argument was out of the range of valid values.|9
+2017-01-28 16:39:46.845|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.846|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.848|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:46.850|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:46.852|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArithmeticException|9
+2017-01-28 16:39:46.855|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Overflow or underflow in the arithmetic operation.|9
+2017-01-28 16:39:46.857|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:46.858|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:46.860|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.019|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.022|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArithmeticException|9
+2017-01-28 16:39:47.024|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Overflow or underflow in the arithmetic operation.|9
+2017-01-28 16:39:47.027|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.031|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.034|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.037|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.040|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArithmeticException|9
+2017-01-28 16:39:47.044|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Overflow or underflow in the arithmetic operation.|9
+2017-01-28 16:39:47.047|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.050|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.053|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.217|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.219|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArrayTypeMismatchException|9
+2017-01-28 16:39:47.221|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Attempted to access an element as a type incompatible with the array.|9
+2017-01-28 16:39:47.223|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.224|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.226|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.228|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.230|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArrayTypeMismatchException|9
+2017-01-28 16:39:47.232|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Attempted to access an element as a type incompatible with the array.|9
+2017-01-28 16:39:47.235|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.237|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.239|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.242|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.244|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.ArrayTypeMismatchException|9
+2017-01-28 16:39:47.247|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Attempted to access an element as a type incompatible with the array.|9
+2017-01-28 16:39:47.249|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.251|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.253|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.417|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.419|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.BadImageFormatException|9
+2017-01-28 16:39:47.421|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Format of the executable (.exe) or library (.dll) is invalid.|9
+2017-01-28 16:39:47.423|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.425|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.427|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.429|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.431|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.BadImageFormatException|9
+2017-01-28 16:39:47.433|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Format of the executable (.exe) or library (.dll) is invalid.|9
+2017-01-28 16:39:47.435|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.437|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.438|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.618|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.620|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.BadImageFormatException|9
+2017-01-28 16:39:47.622|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Format of the executable (.exe) or library (.dll) is invalid.|9
+2017-01-28 16:39:47.624|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.626|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.627|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.630|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.632|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.FormatException|9
+2017-01-28 16:39:47.635|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: One of the identified items was in an invalid format.|9
+2017-01-28 16:39:47.638|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.640|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.642|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.643|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.646|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.FormatException|9
+2017-01-28 16:39:47.649|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: One of the identified items was in an invalid format.|9
+2017-01-28 16:39:47.653|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.656|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.659|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.818|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.819|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.FormatException|9
+2017-01-28 16:39:47.821|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: One of the identified items was in an invalid format.|9
+2017-01-28 16:39:47.823|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.825|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.826|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.828|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.830|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.InvalidCastException|9
+2017-01-28 16:39:47.832|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified cast is not valid.|9
+2017-01-28 16:39:47.834|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:47.835|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:47.837|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:47.839|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:47.840|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.InvalidCastException|9
+2017-01-28 16:39:47.842|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified cast is not valid.|9
+2017-01-28 16:39:47.844|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:48.018|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:48.021|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:48.023|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:48.025|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.InvalidCastException|9
+2017-01-28 16:39:48.027|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified cast is not valid.|9
+2017-01-28 16:39:48.029|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:48.030|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:48.032|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:48.034|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:48.036|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotSupportedException|9
+2017-01-28 16:39:48.037|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified method is not supported.|9
+2017-01-28 16:39:48.039|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:48.041|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:48.043|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:48.218|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:48.220|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotSupportedException|9
+2017-01-28 16:39:48.221|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified method is not supported.|9
+2017-01-28 16:39:48.223|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:48.225|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:48.226|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:48.228|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:48.230|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotSupportedException|9
+2017-01-28 16:39:48.232|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Specified method is not supported.|9
+2017-01-28 16:39:48.234|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:48.236|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:48.238|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:48.240|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:48.242|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NullReferenceException|9
+2017-01-28 16:39:48.243|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Object reference not set to an instance of an object.|9
+2017-01-28 16:39:48.245|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:48.247|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:48.249|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:48.417|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:48.419|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NullReferenceException|9
+2017-01-28 16:39:48.421|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Object reference not set to an instance of an object.|9
+2017-01-28 16:39:48.423|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-28 16:39:48.425|System.Windows.Application.Run|This is a first message|9
+2017-01-28 16:39:48.426|System.Windows.Application.Run|This is a second message|9
+2017-01-28 16:39:48.428|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-28 16:39:48.430|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NullReferenceException|9
+2017-01-28 16:39:48.432|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Object reference not set to an instance of an object.|9
+2017-01-28 16:39:48.434|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9

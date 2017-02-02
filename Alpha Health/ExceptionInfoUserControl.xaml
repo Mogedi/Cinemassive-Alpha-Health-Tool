@@ -6,9 +6,9 @@
              xmlns:local="clr-namespace:Alpha_Health"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300"
-             Height="25" Width="700" Background="#FFC7C7C7">
+             Height="25" Width="900" Background="#FFD66868">
     <Grid>
-        <Button x:Name="button" Content="View" HorizontalAlignment="Left" Margin="605,0,0,0" VerticalAlignment="Center" Width="75"/>
+        <Button x:Name="button" Content="View" HorizontalAlignment="Right" Margin="0,0,40,0" VerticalAlignment="Center" Width="75" Click="button_Click"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="20,0,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center"/>
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center"/>
 </Grid>

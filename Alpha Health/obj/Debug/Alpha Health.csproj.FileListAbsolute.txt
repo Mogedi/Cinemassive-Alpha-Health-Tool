@@ -16,3 +16,34 @@ C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha H
 C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\LogInfoUserControl.baml
 C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\ExceptionInfoUserControl.g.cs
 C:\Users\mohamud.gedi\documents\visual studio 2015\Projects\Alpha Health\Alpha Health\obj\Debug\ExceptionInfoUserControl.baml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Castle.Core.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\CineNet.Common.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Humanizer.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\JetBrains.Annotations.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\MongoDB.Bson.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\MongoDB.Driver.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Priority Queue.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Renci.SshNet.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Castle.Core.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Humanizer.pdb
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Humanizer.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\JetBrains.Annotations.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\MongoDB.Bson.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\MongoDB.Driver.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Priority Queue.pdb
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Priority Queue.xml
+C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\bin\Debug\Renci.SshNet.xml

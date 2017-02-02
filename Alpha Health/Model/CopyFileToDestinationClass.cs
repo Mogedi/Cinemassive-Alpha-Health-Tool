@@ -13,18 +13,21 @@ namespace Alpha_Health.Model
         {
             try
             {
-                string titleOfFile = filePath.Split('\\').Last();
-                string fileDestination = destination + titleOfFile;
-
+                string fileDestination = getLocalLogFileDestination(filePath, destination);
                 File.Copy(filePath, fileDestination, true);
-
                 return true;
             }
             catch (Exception)
             {
                 return false;
             }
-            
+        }
+
+        public static string getLocalLogFileDestination(string filePath, string destination)
+        {
+            string titleOfFile = filePath.Split('\\').Last();
+            string fileDestination = destination + titleOfFile;
+            return fileDestination;
         }
 
     }

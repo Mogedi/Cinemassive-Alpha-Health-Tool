@@ -1,0 +1,404 @@
+2017-01-25 20:19:38.823|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:38.827|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NullReferenceException|9
+2017-01-25 20:19:38.830|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: Object reference not set to an instance of an object.|9
+2017-01-25 20:19:38.835|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:38.838|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:38.842|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:38.876|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:38.880|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:38.883|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:38.887|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:38.890|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:38.893|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:38.896|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:39.006|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:39.010|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:39.013|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:39.017|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:39.020|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:39.023|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:39.026|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:39.206|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:39.209|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:39.211|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:39.213|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:39.217|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:39.220|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:39.223|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:39.406|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:39.410|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:39.413|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:39.416|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:39.420|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:39.423|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:39.427|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:39.454|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:39.457|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:39.460|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:39.464|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:39.467|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:39.470|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:39.473|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:39.607|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:39.610|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:39.614|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:39.617|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:39.620|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:39.623|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:39.627|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:39.806|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:39.809|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:39.813|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:39.816|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:39.819|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:39.822|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:39.825|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:40.005|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:40.007|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:40.009|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:40.011|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:40.012|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:40.019|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:40.020|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:40.204|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:40.206|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:40.208|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:40.210|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:40.212|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:40.213|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:40.215|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:40.229|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:40.230|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:40.232|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:40.234|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:40.236|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:40.238|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:40.239|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:40.405|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:40.406|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:40.408|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:40.410|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:40.412|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:40.413|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:40.415|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:40.606|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:40.609|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:40.612|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:40.615|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:40.619|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:40.622|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:40.625|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:40.806|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:40.809|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:40.813|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:40.816|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:40.819|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:40.822|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:40.825|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:40.850|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:40.854|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:40.858|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:40.861|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:40.864|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:40.868|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:40.872|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:41.006|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:41.009|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:41.012|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:41.016|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:41.019|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:41.022|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:41.025|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:41.204|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:41.206|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:41.208|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:41.210|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:41.212|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:41.214|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:41.216|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:41.404|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:41.406|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:41.408|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:41.410|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:41.411|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:41.414|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:41.415|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:41.605|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:41.607|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:41.609|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:41.611|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:41.613|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:41.618|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:41.620|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:41.643|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:41.647|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:41.653|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:41.656|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:41.658|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:41.660|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:41.662|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:41.806|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:41.809|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:41.811|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:41.813|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:41.816|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:41.819|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:41.821|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:42.007|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:42.010|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:42.012|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:42.016|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:42.019|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:42.022|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:42.024|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:42.204|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:42.206|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:42.208|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:42.210|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:42.211|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:42.213|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:42.215|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:42.228|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:42.230|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:42.232|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:42.234|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:42.236|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:42.237|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:42.239|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:42.423|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:42.426|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:42.429|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:42.432|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:42.435|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:42.437|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:42.439|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:42.604|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:42.606|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:42.608|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:42.610|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:42.612|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:42.614|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:42.617|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:42.805|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:42.808|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:42.811|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:42.814|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:42.817|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:42.819|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:42.821|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:43.005|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:43.007|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:43.009|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:43.011|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:43.013|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:43.015|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:43.017|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:43.033|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:43.035|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:43.037|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:43.039|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:43.041|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:43.043|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:43.044|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:43.205|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:43.207|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:43.211|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:43.213|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:43.216|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:43.219|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:43.223|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:43.405|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:43.407|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:43.408|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:43.411|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:43.412|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:43.414|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:43.416|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:43.605|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:43.607|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:43.609|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:43.611|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:43.613|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:43.614|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:43.617|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:43.635|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:43.637|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:43.638|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:43.640|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:43.642|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:43.644|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:43.805|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:43.821|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:43.823|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:43.825|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:43.826|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:43.828|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:43.830|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:43.832|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:44.005|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:44.006|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:44.008|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:44.010|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:44.012|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:44.014|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:44.015|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:44.204|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:44.206|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:44.208|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:44.210|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:44.212|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:44.214|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:44.216|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:44.405|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:44.406|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:44.408|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:44.410|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:44.412|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:44.414|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:44.415|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:44.429|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:44.431|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:44.432|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:44.434|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:44.436|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:44.438|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:44.439|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:44.605|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:44.606|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:44.608|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:44.610|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:44.612|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:44.614|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:44.616|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:44.804|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:44.806|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:44.809|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:44.812|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:44.814|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:44.815|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:44.817|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:45.004|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:45.006|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:45.010|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:45.012|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:45.013|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:45.015|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:45.016|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:45.205|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:45.207|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:45.209|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:45.211|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:45.212|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:45.214|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:45.216|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:45.234|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:45.236|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:45.238|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:45.239|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:45.241|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:45.243|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:45.244|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:45.406|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:45.408|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:45.411|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:45.413|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:45.415|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:45.417|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:45.419|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:45.605|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:45.607|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:45.609|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:45.610|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:45.612|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:45.614|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:45.616|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:45.805|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:45.807|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:45.808|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:45.810|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:45.812|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:45.814|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:45.816|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:45.837|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:45.839|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:45.841|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:45.842|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:45.844|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:45.846|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:45.848|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:46.005|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:46.007|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:46.009|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:46.011|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:46.013|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:46.015|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:46.017|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:46.205|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:46.206|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:46.208|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:46.210|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:46.212|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:46.213|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:46.215|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:46.405|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:46.406|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:46.408|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:46.410|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:46.412|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
+2017-01-25 20:19:46.413|System.Windows.Application.Run|This is a first message|9
+2017-01-25 20:19:46.415|System.Windows.Application.Run|This is a second message|9
+2017-01-25 20:19:46.604|MS.Win32.UnsafeNativeMethods.DispatchMessage|EXCEPTION====================================================================================================================|9
+2017-01-25 20:19:46.606|MS.Win32.UnsafeNativeMethods.DispatchMessage|    EXCEPTION TYPE: System.NotImplementedException|9
+2017-01-25 20:19:46.608|MS.Win32.UnsafeNativeMethods.DispatchMessage|    MESSAGE: The method or operation is not implemented.|9
+2017-01-25 20:19:46.610|MS.Win32.UnsafeNativeMethods.DispatchMessage|    STACKTRACE:    at Alpha_Health.Model.TestingLoggerClass.TestMethod() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 41
+    |   at Alpha_Health.Model.TestingLoggerClass.testLogger() in C:\Users\mohamud.gedi\Documents\Visual Studio 2015\Projects\Alpha Health\Alpha Health\Model\TestingLoggerClass.cs:line 27|9
+2017-01-25 20:19:46.612|System.Windows.Threading.Dispatcher.PushFrameImpl|END EXCEPTION================================================================================================================|9
